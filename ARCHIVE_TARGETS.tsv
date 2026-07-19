@@ -1,0 +1,25 @@
+family	search_term	original_url	not_before	not_after	archive_url	first_in_window	last_in_window	artifact_name	artifact_sha256	source_commit	source_date	mime_type	is_source_code	is_primary_source	exact_formula_found	test_vector_found	puzzle_link	evidence_grade	notes
+G06_gmaxwell_type1	deterministic wallet bulk		2011-01-01	2015-01-15											no	no	none	C	Generic generator; window ends puzzle day
+G07_gmaxwell_type2	master + H(n S type)		2011-01-01	2015-01-15											partial	no	none	C	Pin primary 2011 post
+G11_type1_clones	consecutive private keys bitcoin		2011-01-01	2015-01-15													none	C	pass||i clones
+G11_type1_clones	deterministic paper wallet generator		2011-01-01	2015-01-15													none	C	
+G18_custom_scripts	bulk key generator bitcoin		2011-01-01	2015-01-15													none	C	
+G18_custom_scripts	walletgen importprivkey		2011-01-01	2015-01-15													none	C	
+G02_casascius_c2	/BITCOIN passphrase	https://github.com/casascius/Bitcoin-Address-Utility	2011-08-01	2015-01-15	https://web.archive.org/web/20141201023759/https://github.com/casascius/Bitcoin-Address-Utility	20130824064534	20141201023759					text/html	no	no	yes	yes	none	C	Prefer tag/tarball over HTML; formula locked; no Puzzle link
+G01_casascius_c1	GenerationFormula	https://github.com/casascius/Bitcoin-Address-Utility	2011-09-01	2015-01-15	https://web.archive.org/web/20141201023759/https://github.com/casascius/Bitcoin-Address-Utility	20130824064534	20141201023759					text/html	no	no	yes	partial	none	C	Share artifact SHA with G02 when same bytes
+G09_bitaddress_bulk	bitaddress.org/*	bitaddress.org/*	2011-01-01	2015-01-15													none	D	Wildcard CDX; control
+G08_bitaddress_brain	bitaddress.org/*.js	bitaddress.org/*	2011-01-01	2015-01-15													none	D	
+G10_brainwallet	brainwallet.org	https://brainwallet.org	2011-01-01	2015-01-15	https://web.archive.org/web/20140626153002/http://brainwallet.org/	20120413041417	20140626153002	G10_brainwallet_85bb68ffc52f.html	bc45d035f13e869c00e3eb8eafb3619119797dd8679ed55e46fcd563d0ae0474		2014-06-26	text/html	no	no	yes	no	none	D	
+G12_pybitcointools	prefer tag tarball	https://github.com/vbuterin/pybitcointools	2013-01-01	2015-01-15	https://web.archive.org/web/20141112062153/https://github.com/vbuterin/pybitcointools	20140906103325	20141112062153					text/html	no	no	partial	no	none	C	HTML weak; fetch tag zip ≤2015-01-15
+G16_libbitcoin	tag ≤2015-01-15	https://github.com/libbitcoin/libbitcoin	2011-01-01	2015-01-15	https://web.archive.org/web/20150114152903/https://github.com/libbitcoin/libbitcoin	20150114152903	20150114152903					text/html			partial	no	none	C	
+G13_bitcoinjs	tag ≤2015-01-15	https://github.com/bitcoinjs/bitcoinjs-lib	2013-01-01	2015-01-15	https://web.archive.org/web/20141205202553/https://github.com/bitcoinjs/bitcoinjs-lib	20131222063234	20141205202553					text/html			partial	no	none	C	
+G05_bip32	bip-0032 raw	https://raw.githubusercontent.com/bitcoin/bips/master/bip-0032.mediawiki	2012-02-11	2015-01-15								text/plain	yes	yes	yes	yes	none	C	
+G04_armory_ckd	gist primary	https://gist.github.com/etotheipi/2513316	2012-04-27	2015-01-15							2012-04-27		yes	yes	yes	yes	none	C	Wayback CDX=0 OK; gist revision is primary
+G03_electrum	tag ≤2015-01-15	https://github.com/spesmilo/electrum	2011-01-01	2015-01-15	https://web.archive.org/web/20141010035050/https://github.com/spesmilo/electrum	20140913002252	20141010035050					text/html			yes	yes	none	C	
+mask_T	masked deterministic wallet code		2011-01-01	2017-04-27													none	C	May predate puzzle or appear up to known creator post
+chaincode_docs	chain code bitcoin wallet		2011-01-01	2015-01-15													none	C	
+google_code_bulk	code.google.com bitcoin deterministic		2011-01-01	2015-01-15													none	C	
+sourceforge_bulk	sourceforge bitcoin walletgen		2011-01-01	2015-01-15													none	C	
+bitcointalk_attach	attachment deterministic bulk		2011-01-01	2015-01-15													none	C	
+G06_gmaxwell_type1	topic=19137	https://bitcointalk.org/index.php?topic=19137.0	2011-01-01	2015-01-15	https://web.archive.org/web/20140406045824/https://bitcointalk.org/index.php?topic=19137.0	20121030062859	20140406045824	G06_gmaxwell_type1_9b5215861162.html	18cc43accfa3bd6f0cc80d5eca6465766541387f843849a2ac13a707b18929e7		2014-04-06	text/html	no	partial	partial	no	none	C	Type-1/2 keywords; not Puzzle-linked
+G07_gmaxwell_type2	topic=102079	https://bitcointalk.org/index.php?topic=102079.0	2011-01-01	2015-01-15	https://web.archive.org/web/20140426233030/https://bitcointalk.org/index.php?topic=102079.0	20140426233030	20140426233030	G07_gmaxwell_type2_fbc1c7ac0ccc.html	0886cf126c6338d6dccf965da0619eaf8407c1fadd72e1ab5f82250ebd79ee79		2014-04-26	text/html					none	D	Likely wrong thread

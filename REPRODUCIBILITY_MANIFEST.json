@@ -1,0 +1,236 @@
+{
+  "title": "Bitcoin Puzzle #71 research \u2014 reproducibility manifest",
+  "version": "research-closure-v1.0",
+  "final_state": "CLOSED_PENDING_NEW_PRIMARY_EVIDENCE",
+  "generated": "2026-07-20",
+  "justified_71_search_command": null,
+  "statement": "Puzzle #71 is not proven absolutely unsolvable; no verifiable justified solution path exists from current public evidence.",
+  "reopen": "REOPEN_GATE.md",
+  "closure": "RESEARCH_CLOSURE.md",
+  "artifacts": [
+    {
+      "path": "RESEARCH_CLOSURE.md",
+      "sha256": "3a8425dd3dacee4a3b370d10aa3826969a1eba0d981c96b02be03d1cef48b199",
+      "status": "CLOSED_PENDING_NEW_PRIMARY_EVIDENCE",
+      "scope": "project closure statement",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "REOPEN_GATE.md",
+      "sha256": "f7f4f909160a2023a0560a47670d9bbfedf88d4ec64a274e35f85b4e5675276a",
+      "status": "PASS",
+      "scope": "G1-G5 reopen conditions",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "ARMORY_VECTOR_LOCK.md",
+      "sha256": "8b4baa9ab0336866942811ed1e1350c7f13e2ecc207cccc905204546ea5c4c76",
+      "status": "PASS",
+      "scope": "historical CKD vector reproduction",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "armory_chain_selftest.py",
+      "sha256": "340b40baf335817b1c8091344321a07036f3e48b7c8d36aeaae8331fbc906e6f",
+      "status": "PASS",
+      "scope": "Armory CKD self-test",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "ELECTRUM_V1_VECTOR_LOCK.md",
+      "sha256": "ef2e570729fbe7e6035e62a4cf72616f7ab95f8dea888b87dfd889cd8837f85d",
+      "status": "PASS",
+      "scope": "Electrum 1.x vector lock",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "electrum_v1_vector_selftest.py",
+      "sha256": "bb7721eda9100adee9c9f89f0f0b6f3a05910dacdec82dd3ecffc7f5a4e873d1",
+      "status": "PASS",
+      "scope": "Electrum 1.x self-test",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "casascius_vector_selftest.py",
+      "sha256": "a44afcbd13489fc4a946738d64146b752b79e87fb4d9955a16be14705951b814",
+      "status": "PASS",
+      "scope": "Casascius C1/C2 self-test",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "CASASCIUS_BAU_DOSSIER.md",
+      "sha256": "09dabf442b9e74bb9ab04faa17b8497d439d2a1c790a248230bc122fc0144bc1",
+      "status": "PASS",
+      "scope": "Casascius BAU archaeology",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "EXACT_GENERATOR_MONTE_CARLO.md",
+      "sha256": "470b0c8201fdf40d608786c2e6faba23152552963531308aba2bf99669eaf67b",
+      "status": "PASS",
+      "scope": "exact generator MC; no separation under tested setup",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "exact_generator_model_selection.py",
+      "sha256": "1b0c139e931ea65af21a34e4af3cb16cf9fe1416dc450f883156948bfec585a0",
+      "status": "PASS",
+      "scope": "T_low/T_high stability MC",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "SOLVED_SEQUENCE_MODEL_SELECTION.md",
+      "sha256": "3457a0ecd68d62f9f0aff288ceab2259912be99f8e38fa5b63eb49f37cb124e2",
+      "status": "PASS",
+      "scope": "preliminary free-bit audit (stubs)",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "solved_sequence_model_selection.py",
+      "sha256": "6707600d83c3d1b3b5d584270b29183c9d3759ffc9c3aa30c51089256d0a1201",
+      "status": "PASS",
+      "scope": "preliminary self-test",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "SOLVED_KEY_TRANSFORM_AUDIT.md",
+      "sha256": "e878031df4f847818352831cb1ffacf4113198305d2397dcf463ba9ebd7a14e1",
+      "status": "PASS",
+      "scope": "82/82 window invariant",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "GENERATOR_DIFFERENTIAL_AUDIT.md",
+      "sha256": "470a551e3f846c8deb9cc99271fdf5445f69b24b5c3d832a12ca6e48b57fe75a",
+      "status": "PASS",
+      "scope": "three locked families side-by-side",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "GENERATOR_CENSUS_PRE2015.md",
+      "sha256": "592d5d59e99c45473fbc9627343e3fb841eb5027ac30f5e90651dc96e217fdf8",
+      "status": "PASS",
+      "scope": "pre-2015 generator census",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "REDISTRIBUTION_MAPPING_AUDIT.md",
+      "sha256": "fc51dd6f8d406d8ec8ae4cdccee741cfc752d54d90da4e5f23f194dbf183c563",
+      "status": "PASS",
+      "scope": "2017 redistrib I/O map",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "TX_BUILDER_FINGERPRINT.md",
+      "sha256": "c32e1a5b180162df6880073c1a4408ecd3068e21da483ffae87aa945f5a68d2f",
+      "status": "PASS",
+      "scope": "puzzle/funding TX fingerprint",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "FUNDING_SIBLING_CLUSTER.md",
+      "sha256": "f497a69764ce920579558d8dbb1452be960aecc4dd32d45d9b1fea5f82bb4269",
+      "status": "PASS",
+      "scope": "funding sibling cluster bounds",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "CREATOR_ARCHIVE.md",
+      "sha256": "422a1cf3844cc0413cd168e41e81205c30223008b2c123a46001e4585a36eb06",
+      "status": "PASS",
+      "scope": "saatoshi_rising archive closed pass",
+      "puzzle_link": "operational_only"
+    },
+    {
+      "path": "PUBKEY_FINGERPRINT.md",
+      "sha256": "526de5182e58bc454a09a24bb5a3b25ed3c8445a7a92a5c39701991b0ba4527a",
+      "status": "PASS",
+      "scope": "compressed P\u2192A; redistrib 96C+1U",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "PUZZLE_LINKAGE_HUNT.md",
+      "sha256": "d046dd9c47dbea8bd3bdf782c984413a711006812a1af5286e63a7323b0b45c4",
+      "status": "CLOSED",
+      "scope": "linkage hunt frozen pending A/B",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "PUZZLE_LINKAGE_TRIAGE.md",
+      "sha256": "f64d9e48b1ee2aa3459ef733d56f615a2b482078c4eb045f9888a38582a8e5f8",
+      "status": "CLOSED_PENDING_NEW_PRIMARY_EVIDENCE",
+      "scope": "Pass1-3 triage + stop rule",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "PUZZLE_LINKAGE_TARGETS.tsv",
+      "sha256": "26ecb09ae9c055a0e8af2c13687c921d12a00faa758657b3ac2c6306cdf2a82a",
+      "status": "CLOSED",
+      "scope": "windowed linkage targets",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "LINKAGE_EVIDENCE_MATRIX.tsv",
+      "sha256": "e7f703f04c17d3643219963984f09e687a2f5059457f57ee6c77782b8ce69b76",
+      "status": "CLOSED",
+      "scope": "A-D evidence matrix",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "ARCHIVE_TARGETS.tsv",
+      "sha256": "4e8aa89cb83fed432a0e5fdfec40845ff24a7b210a1df1ae8530fcd20d12b03d",
+      "status": "PASS",
+      "scope": "windowed generator archive inventory",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "PRE2015_ARCHIVE_HUNT.md",
+      "sha256": "b9baf8301639e650f03f58a4b87e2d4f87604b30a2e46d0de2590fc6b734f82a",
+      "status": "SECONDARY",
+      "scope": "generic tools; secondary to linkage",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "linkage_triage.py",
+      "sha256": "300dcb6f8173850c49a959eaf82892dc8be3b218c30c5e3749b8c27a32cd3e9a",
+      "status": "PASS",
+      "scope": "triage runner; Bitaddress Grade C",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "puzzle_linkage_probe.py",
+      "sha256": "96ea7776764b4fb7d39048ba475f29f894fdb6c086bae56f945bb9e16ef13d51",
+      "status": "PASS",
+      "scope": "linkage CDX probe",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "archive_index_probe.py",
+      "sha256": "273e6b3453375b4be705fc966f6b3c876722da1a5361c57947c7fc0ecbf2d2f8",
+      "status": "PASS",
+      "scope": "archive CDX probe",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "linkage_hits/bitaddress_dedup.json",
+      "sha256": "1cdec74c428deadfaf86368a2615d845c9fe799a171fb991fed8acbb2444ddbe",
+      "status": "PASS",
+      "scope": "Bitaddress dedup+keyword triage",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "linkage_hits/triage_summary.json",
+      "sha256": "4228cd7552d67337316878aed0f49f29db2f8a87b8657d285c642bf691481d43",
+      "status": "PASS",
+      "scope": "triage stop-rule summary",
+      "puzzle_link": "none"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1cbf8a4e57e5af3518422d0af51dd8330af432a16a033cb26830e37f2a8546f1",
+      "status": "PASS",
+      "scope": "repo overview",
+      "puzzle_link": "none"
+    }
+  ]
+}

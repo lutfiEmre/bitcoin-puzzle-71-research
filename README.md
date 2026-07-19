@@ -1,8 +1,12 @@
 # Bitcoin Puzzle — Historical Research Dossier (no key hunt)
 
+**Status: [`CLOSED_PENDING_NEW_PRIMARY_EVIDENCE`](RESEARCH_CLOSURE.md)** · reopen only via [`REOPEN_GATE.md`](REOPEN_GATE.md) · [`REPRODUCIBILITY_MANIFEST.json`](REPRODUCIBILITY_MANIFEST.json)
+
 Public research notes on the **2015 Bitcoin Puzzle** funding / transaction construction and early deterministic-wallet tooling.
 
 **This repository does not claim to have recovered Puzzle #71's key.**
+
+**Correct bound:** #71 is not proven absolutely unsolvable; with current public evidence there is **no verifiable, computationally justified solution path**.
 
 **It documents reproducible historical and on-chain evidence concerning**
 
@@ -48,6 +52,7 @@ Expected: `RESULT: PASS` (published 2011 sample WIF).
 
 | File                              | Topic                                                        |
 | --------------------------------- | ------------------------------------------------------------ |
+| `GENERATOR_CENSUS_PRE2015.md`     | **Next primary track:** pre-2015 deterministic/bulk generators |
 | `CREATOR_ARCHIVE.md`              | Forum / saatoshi_rising archive bounds                       |
 | `FUNDING_PROVENANCE.md`           | Same-day funding chronology                                  |
 | `FUNDING_SIBLING_CLUSTER.md`      | vout2 redeemScript, siblings, Bitstamp attribution (bounded) |
@@ -69,8 +74,9 @@ If you have **primary** material that intersects this dossier, please open an is
 1. Second independent label for `3NTKgoHrYuktTXczxYfhLifTzfuNKcEc9B` / spend `aba0cf6f…`
 2. Contemporaneous Bitstamp/BitGo deposit-address samples (Jan 2015) for redeem-script comparison
 3. Archive links for Casascius BAU forum sample post / early ZIP binaries beyond GitHub
-4. Any **documented** 2011–2015 generator that matches “consecutive deterministic keys” with a published test vector (not a new guess)
+4. Any **documented** 2011–2015 generator that matches “consecutive deterministic keys” with a published test vector (not a new guess) — see `GENERATOR_CENSUS_PRE2015.md`
 5. Corrections to WalletExplorer cluster claims with reproducible methodology
+6. Deleted Bitcointalk/SourceForge/Google Code attachments of bulk/deterministic generators with exact formulas
 
 Do **not** send private keys, seed phrases, or requests to sweep addresses.
 

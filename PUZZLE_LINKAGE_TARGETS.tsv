@@ -1,0 +1,27 @@
+target_type	search_value	not_before	not_after	source	archived_url	snapshot_time	author_or_alias	exact_context	creator_link	generator_link	mask_T_link	evidence_grade	notes
+creator_handle	saatoshi_rising	2015-01-15	2017-12-31	bitcointalk					unknown			pending	Known 2017-04-27 post; hunt earlier/other posts same handle
+creator_handle	Satoshi_Rising	2015-01-15	2017-12-31	bitcointalk/reddit/web					unknown			pending	Case/underscore variants
+creator_phrase	consecutive keys from a deterministic wallet	2015-01-15	2017-04-27	web/forum/gist/paste					unknown			pending	Need hit BEFORE known 2017-04-27 message if claiming earlier origin; window starts puzzle day
+creator_phrase	masked with leading 000...0001	2015-01-15	2017-04-27	web/forum/gist/paste					unknown			pending	
+creator_phrase	crude measuring instrument	2015-01-15	2017-04-27	web/forum					unknown			pending	
+creator_phrase	cracking strength of the community	2015-01-15	2017-04-27	web/forum					unknown			pending	
+creator_phrase_frag	"consecutive keys ""deterministic wallet"""	2015-01-15	2017-04-27	web/forum					unknown			pending	Fragment pair
+creator_phrase_frag	leading zeros masked bitcoin puzzle	2015-01-15	2017-04-27	web/forum					unknown			pending	
+creator_phrase_frag	measuring instrument bitcoin cracking	2015-01-15	2017-04-27	web/forum					unknown			pending	
+addr_funding	1Czoy8xtddvcGrEhUUCZDQ9QqdRfKh697F	2015-01-15	2017-07-11	web/forum/paste/gist					unknown			pending	not_before=first chain era; REJECT explorer-only mirrors
+addr_change	173ujrhEVGqaZvPHXLqwXiSmPVMo225cqT	2015-01-15	2017-07-11	web/forum/paste/gist					unknown			pending	REJECT explorers
+addr_topup	1CENDvi6tmKGrR8RxqwURpX9WHbbKip1db	2015-01-15	2018-01-01	web/forum/paste					unknown			pending	Redistrib uncompressed top-up; first-seen may be 2017 — refine when known
+txid_puzzle	08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15	2015-01-15	2017-04-27	web/forum/paste/gist					unknown			pending	TX created 2015-01-15 — NEVER search pre-2015; want non-explorer early quote/script
+txid_redistrib	5d45587cfd1d5b0fb826805541da7d94c61fe432259e68ee26f4a04544384164	2017-07-11	2018-12-31	web/forum					unknown			pending	not_before=2017-07-11; mapping done — hunt announcement/alias only
+code_const	256 outputs	2015-01-15	2017-04-27	github/gist/pastebin					unknown			pending	Structural constant of puzzle builder
+code_const	100000 satoshi	2015-01-15	2017-04-27	github/gist/pastebin					unknown			pending	value = n * 100000
+code_const	0.001 * index	2015-01-15	2017-04-27	github/gist/pastebin					unknown			pending	
+code_const	0.01 * key length	2015-01-15	2017-04-27	github/gist/pastebin					unknown			pending	Alternate wording
+code_const	161 256 deterministic	2015-01-15	2017-07-15	github/gist/pastebin					unknown			pending	Redistrib range scripting
+code_const	0000000000000001 mask	2011-01-01	2017-04-27	github/gist/pastebin					unknown			pending	Mask T may appear as code before or after puzzle
+mask_T_code	leading bit mask private key puzzle	2011-01-01	2017-04-27	github/gist/pastebin					unknown			pending	Exact T operator in code = high value
+bitaddress_wild	bitaddress.org/*	2011-01-01	2015-01-15	wayback-domain	https://web.archive.org/web/20141219030102/https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3c1792e4abdb8f2d95b726d64.html	20141219030102			unknown			D	domain CDX in_window=81 interesting=56; last=https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3
+bitaddress_wild	www.bitaddress.org/*	2011-01-01	2015-01-15	wayback-domain	https://web.archive.org/web/20141219030102/https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3c1792e4abdb8f2d95b726d64.html	20141219030102			unknown			D	domain CDX in_window=81 interesting=56; last=https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3
+bitaddress_wild	bitaddress.org/*.js	2011-01-01	2015-01-15	wayback-domain	https://web.archive.org/web/20141219030102/https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3c1792e4abdb8f2d95b726d64.html	20141219030102			unknown			D	domain CDX in_window=81 interesting=56; last=https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3
+bitaddress_wild	bitaddress.org/*.html	2011-01-01	2015-01-15	wayback-domain	https://web.archive.org/web/20141219030102/https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3c1792e4abdb8f2d95b726d64.html	20141219030102			unknown			D	domain CDX in_window=81 interesting=56; last=https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3
+bitaddress_wild	bitaddress.org/*.zip	2011-01-01	2015-01-15	wayback-domain	https://web.archive.org/web/20141219030102/https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3c1792e4abdb8f2d95b726d64.html	20141219030102			unknown			D	domain CDX in_window=81 interesting=56; last=https://www.bitaddress.org/bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3

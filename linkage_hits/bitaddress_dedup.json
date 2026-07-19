@@ -1,0 +1,829 @@
+{
+  "pass": 3,
+  "target": "bitaddress.org",
+  "unique_contents": 18,
+  "raw_cdx": 81,
+  "versions": [
+    {
+      "key": "v0.6|1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e",
+      "ver": "0.6",
+      "url_sha1": "1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e",
+      "n_snapshots": 6,
+      "first_ts": "20110922230113",
+      "last_ts": "20120614222418",
+      "archive_url": "https://web.archive.org/web/20110922230113/http://www.bitaddress.org/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html",
+      "file": "bitaddress_0_6_1cea2d8c437d.html",
+      "sha256": "2cc7b6980f8e03aaf48269e086e994869e1c823889887ef67425a4eba2735979",
+      "keywords_present": [
+        "bulk",
+        "mask",
+        "privatekey",
+        "seed",
+        "sequence",
+        "shift"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {
+        "bulk": [
+          "mit - 1; ninja.seed(); } }, // use this function to bulk generate addresses // rowLimit: number of Bitcoin Addresses to generate"
+        ],
+        "sequence": [
+          "var sBa = s.toByteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER s",
+          "yteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER sequence.push(rBa.length);"
+        ],
+        "privatekey": [
+          "); var bitcoinAddress = key.getBitcoinAddress().toString(); //var privateKeyHex = key.toString().toUpperCase(); // The Hex Private Key var privateKey",
+          "privateKeyHex = key.toString().toUpperCase(); // The Hex Private Key var privateKeyWif = key.getBitcoinWalletImportFormat(); if (bitcoinAddress) {"
+        ],
+        "seed": [
+          "* NOTE: For best results, put code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML docu",
+          "ike * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document. * * Copyright T"
+        ],
+        "mask": [
+          "make: function () { this.makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) {",
+          "is.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleCount = this.typeNumber * 4 + 17;"
+        ],
+        "shift": [
+          "v * (z2 * (z1 * u^2 - 2 * x1 * v^2) - v^3) var x3 = zu2.subtract(x1v2.shiftLeft(1)).multiply(b.z).subtract(v3).multiply(v).mod(this.curve.q); //",
+          "y1 * z1 * (w^2 - 8 * x1 * y1^2 * z1) var x3 = w.square().subtract(x1.shiftLeft(3).multiply(y1sqz1)).shiftLeft(1).multiply(y1z1).mod(this.curve.q);"
+        ]
+      }
+    },
+    {
+      "key": "path|8c57192f31d4e7a6|GDEJ2KYW3A6YDZJMH7VLIJ4GPP2QZP4Q",
+      "ver": "?",
+      "url_sha1": "GDEJ2KYW3A6YDZJMH7VLIJ4GPP2QZP4Q",
+      "n_snapshots": 1,
+      "first_ts": "20110924085211",
+      "last_ts": "20110924085211",
+      "archive_url": "https://web.archive.org/web/20110924085211/http://www.bitaddress.org:80/pgpsignedmsg.txt",
+      "file": "bitaddress_?_GDEJ2KYW3A6Y.html",
+      "sha256": "ed53d170e764efff37dcdcd5ba6906470eede21b1396e8ad127636fe05e180da",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {}
+    },
+    {
+      "key": "v0.8|47b989b8a33407df14d21dbd00fad653e0161d6c",
+      "ver": "0.8",
+      "url_sha1": "47b989b8a33407df14d21dbd00fad653e0161d6c",
+      "n_snapshots": 5,
+      "first_ts": "20110925174526",
+      "last_ts": "20120614223522",
+      "archive_url": "https://web.archive.org/web/20110925174526/http://www.bitaddress.org:80/bitaddress.org-v0.8-SHA1-47b989b8a33407df14d21dbd00fad653e0161d6c.html",
+      "file": "bitaddress_0_8_47b989b8a334.html",
+      "sha256": "b5a649da110e06197ad1e90dc6ddf5a62b982918495a38137946c4b52f37a416",
+      "keywords_present": [
+        "bulk",
+        "mask",
+        "privatekey",
+        "seed",
+        "sequence",
+        "shift"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {
+        "bulk": [
+          ": 0; margin: 0; width: 2px; height: 2px; background-color: #ffffff; } #bulkarea { display: none; padding: 4px 0 0 0; } #bulkarea .label { text-decoration",
+          "-color: #ffffff; } #bulkarea { display: none; padding: 4px 0 0 0; } #bulkarea .label { text-decoration: none; } #bulkarea .format { font-style: italic;"
+        ],
+        "sequence": [
+          "var sBa = s.toByteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER s",
+          "yteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER sequence.push(rBa.length);"
+        ],
+        "privatekey": [
+          "var bitcoinAddress = key.getBitcoinAddress().toString(); //var privateKeyHex = key.toString().toUpperCase(); // The Hex Private Key var privateKe",
+          "rivateKeyHex = key.toString().toUpperCase(); // The Hex Private Key var privateKeyWif = key.getBitcoinWalletImportFormat(); } catch (e) { al"
+        ],
+        "seed": [
+          "RNG * * NOTE: For best results, put code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document.",
+          "code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document. * * Copyright Tom Wu. BSD License."
+        ],
+        "mask": [
+          "make: function () { this.makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) {",
+          "is.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleCount = this.typeNumber * 4 + 17;"
+        ],
+        "shift": [
+          "/ x3 = v * (z2 * (z1 * u^2 - 2 * x1 * v^2) - v^3) var x3 = zu2.subtract(x1v2.shiftLeft(1)).multiply(b.z).subtract(v3).multiply(v).mod(this.curve.q); // y3 = z2",
+          "3 = 2 * y1 * z1 * (w^2 - 8 * x1 * y1^2 * z1) var x3 = w.square().subtract(x1.shiftLeft(3).multiply(y1sqz1)).shiftLeft(1).multiply(y1z1).mod(this.curve.q); // y"
+        ]
+      }
+    },
+    {
+      "key": "v0.5|7ea8d0e32c3583d369dc4079443e0d6e215ac216",
+      "ver": "0.5",
+      "url_sha1": "7ea8d0e32c3583d369dc4079443e0d6e215ac216",
+      "n_snapshots": 5,
+      "first_ts": "20110926105853",
+      "last_ts": "20120614220343",
+      "archive_url": "https://web.archive.org/web/20110926105853/http://www.bitaddress.org:80/bitaddress.org-v0.5-SHA1-7ea8d0e32c3583d369dc4079443e0d6e215ac216.html",
+      "file": "bitaddress_0_5_7ea8d0e32c35.html",
+      "sha256": "580b3be0f1ef1c53f07d496f2995b6699754984d80708c92907e651d9f72b116",
+      "keywords_present": [
+        "bulk",
+        "mask",
+        "privatekey",
+        "seed",
+        "sequence",
+        "shift"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {
+        "bulk": [
+          "mit - 1; ninja.seed(); } }, // use this function to bulk generate addresses // rowLimit: number of Bitcoin Addresses to generate"
+        ],
+        "sequence": [
+          "var sBa = s.toByteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER s",
+          "yteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER sequence.push(rBa.length);"
+        ],
+        "privatekey": [
+          "); var bitcoinAddress = key.getBitcoinAddress().toString(); //var privateKeyHex = key.toString().toUpperCase(); // The Hex Private Key var privateKey",
+          "privateKeyHex = key.toString().toUpperCase(); // The Hex Private Key var privateKeyWif = key.getBitcoinWalletImportFormat(); if (bitcoinAddress) {"
+        ],
+        "seed": [
+          "* NOTE: For best results, put code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML docu",
+          "ike * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document. * * Copyright T"
+        ],
+        "mask": [
+          "make: function () { this.makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) {",
+          "is.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleCount = this.typeNumber * 4 + 17;"
+        ],
+        "shift": [
+          "v * (z2 * (z1 * u^2 - 2 * x1 * v^2) - v^3) var x3 = zu2.subtract(x1v2.shiftLeft(1)).multiply(b.z).subtract(v3).multiply(v).mod(this.curve.q); //",
+          "y1 * z1 * (w^2 - 8 * x1 * y1^2 * z1) var x3 = w.square().subtract(x1.shiftLeft(3).multiply(y1sqz1)).shiftLeft(1).multiply(y1z1).mod(this.curve.q);"
+        ]
+      }
+    },
+    {
+      "key": "path|c23edd30dcfb2006|LCLCURMJRJVC7JAUUZYBH6F2E577WSDF",
+      "ver": "?",
+      "url_sha1": "LCLCURMJRJVC7JAUUZYBH6F2E577WSDF",
+      "n_snapshots": 2,
+      "first_ts": "20110927005636",
+      "last_ts": "20120608073945",
+      "archive_url": "https://web.archive.org/web/20110927005636/http://www.bitaddress.org:80/ninja_bitaddress.org.txt",
+      "file": "bitaddress_?_LCLCURMJRJVC.html",
+      "sha256": "d4ad6f6350b436d2d1f1311bfb3a2320cf08c8ec4b70dde70bbe171ff68f1d82",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {}
+    },
+    {
+      "key": "path|8c57192f31d4e7a6|RQIDAX3RGKQ3RBQJJWTP6EGGWL6WU6SL",
+      "ver": "?",
+      "url_sha1": "RQIDAX3RGKQ3RBQJJWTP6EGGWL6WU6SL",
+      "n_snapshots": 2,
+      "first_ts": "20111024220840",
+      "last_ts": "20111124202245",
+      "archive_url": "https://web.archive.org/web/20111024220840/http://www.bitaddress.org:80/pgpsignedmsg.txt",
+      "file": "bitaddress_?_RQIDAX3RGKQ3.html",
+      "sha256": "940a7eace868d337eb20be48bd400720af4c7a893989712a036a037eb55a7ca3",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {}
+    },
+    {
+      "key": "path|8c57192f31d4e7a6|C7ZX6RF7DTDIADONOIOP3JPWC5UOV7EZ",
+      "ver": "?",
+      "url_sha1": "C7ZX6RF7DTDIADONOIOP3JPWC5UOV7EZ",
+      "n_snapshots": 1,
+      "first_ts": "20111225183530",
+      "last_ts": "20111225183530",
+      "archive_url": "https://web.archive.org/web/20111225183530/http://www.bitaddress.org:80/pgpsignedmsg.txt",
+      "file": "bitaddress_?_C7ZX6RF7DTDI.html",
+      "sha256": "8dc13b9c2aef7e4505c6136fbc31b76ba23af75f10554a68fd04d25e66855168",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {}
+    },
+    {
+      "key": "v0.7|34e344a0d229dc10c8f5c99ed6b6298e6fc5e39f",
+      "ver": "0.7",
+      "url_sha1": "34e344a0d229dc10c8f5c99ed6b6298e6fc5e39f",
+      "n_snapshots": 1,
+      "first_ts": "20120607055652",
+      "last_ts": "20120607055652",
+      "archive_url": "https://web.archive.org/web/20120607055652/http://www.bitaddress.org:80/bitaddress.org-v0.7-SHA1-34e344a0d229dc10c8f5c99ed6b6298e6fc5e39f.html",
+      "file": "bitaddress_0_7_34e344a0d229.html",
+      "sha256": "9f4758e3c06d38fafbbcbe487ada1d02d653b49f36eaf4c9b31c47bbb2666827",
+      "keywords_present": [
+        "bulk",
+        "mask",
+        "privatekey",
+        "seed",
+        "sequence",
+        "shift"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {
+        "bulk": [
+          ": 0; margin: 0; width: 2px; height: 2px; background-color: #ffffff; } #bulkarea { display: none; padding: 4px 0 0 0; } #bulkarea .label { text-decoration",
+          "-color: #ffffff; } #bulkarea { display: none; padding: 4px 0 0 0; } #bulkarea .label { text-decoration: none; } #bulkarea .format { font-style: italic;"
+        ],
+        "sequence": [
+          "var sBa = s.toByteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER s",
+          "yteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER sequence.push(rBa.length);"
+        ],
+        "privatekey": [
+          "var bitcoinAddress = key.getBitcoinAddress().toString(); //var privateKeyHex = key.toString().toUpperCase(); // The Hex Private Key var privateKe",
+          "rivateKeyHex = key.toString().toUpperCase(); // The Hex Private Key var privateKeyWif = key.getBitcoinWalletImportFormat(); } catch (e) { al"
+        ],
+        "seed": [
+          "RNG * * NOTE: For best results, put code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document.",
+          "code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document. * * Copyright Tom Wu. BSD License."
+        ],
+        "mask": [
+          "make: function () { this.makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) {",
+          "is.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleCount = this.typeNumber * 4 + 17;"
+        ],
+        "shift": [
+          "/ x3 = v * (z2 * (z1 * u^2 - 2 * x1 * v^2) - v^3) var x3 = zu2.subtract(x1v2.shiftLeft(1)).multiply(b.z).subtract(v3).multiply(v).mod(this.curve.q); // y3 = z2",
+          "3 = 2 * y1 * z1 * (w^2 - 8 * x1 * y1^2 * z1) var x3 = w.square().subtract(x1.shiftLeft(3).multiply(y1sqz1)).shiftLeft(1).multiply(y1z1).mod(this.curve.q); // y"
+        ]
+      }
+    },
+    {
+      "key": "path|8c57192f31d4e7a6|YHCJQKEM4TSE2KM22G52NRVRPKOUTRTC",
+      "ver": "?",
+      "url_sha1": "YHCJQKEM4TSE2KM22G52NRVRPKOUTRTC",
+      "n_snapshots": 1,
+      "first_ts": "20120714115136",
+      "last_ts": "20120714115136",
+      "archive_url": "https://web.archive.org/web/20120714115136/http://www.bitaddress.org:80/pgpsignedmsg.txt",
+      "file": "bitaddress_?_YHCJQKEM4TSE.html",
+      "sha256": "6e6b0d7cb2e3a916a19f9cc28cebb46a158ed4f6c7b9e7a9105412f4ececc540",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {}
+    },
+    {
+      "key": "v1.5|f2e410251c8741ac65d29a1c6fb8ef6919b6ab8b",
+      "ver": "1.5",
+      "url_sha1": "f2e410251c8741ac65d29a1c6fb8ef6919b6ab8b",
+      "n_snapshots": 1,
+      "first_ts": "20130410200152",
+      "last_ts": "20130410200152",
+      "archive_url": "https://web.archive.org/web/20130410200152/https://www.bitaddress.org/bitaddress.org-v1.5-SHA1-f2e410251c8741ac65d29a1c6fb8ef6919b6ab8b.html",
+      "file": "bitaddress_1_5_f2e410251c87.html",
+      "sha256": "24ee04792907b7aa15b739b3579c38381672d71cfd99b9b49558781b2f79aacf",
+      "keywords_present": [
+        "bulk",
+        "deterministic",
+        "mask",
+        "privatekey",
+        "seed",
+        "sequence",
+        "shift"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {
+        "bulk": [
+          "solid green; border-right: 2px solid green; border-left: 2px solid green; } #bulkarea { display: none; padding: 4px 0 0 0; border: 2px solid green; } #bulkarea",
+          "#bulkarea { display: none; padding: 4px 0 0 0; border: 2px solid green; } #bulkarea .label { text-decoration: none; } #bulkarea .format { font-style: italic;"
+        ],
+        "deterministic": [
+          "// enforce a minimum passphrase length if (key.length > 11) { // Deterministic Wallet confirm box to ask if user wants to SHA256 the input to get a private ke"
+        ],
+        "sequence": [
+          "Ba = r.toByteArrayUnsigned(); var sBa = s.toByteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER sequence.push(rBa.length);",
+          "signed(); var sBa = s.toByteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER sequence.push(rBa.length); sequence = sequence"
+        ],
+        "privatekey": [
+          "ype.getBitcoinWalletImportFormat = function () { var bytes = this.getBitcoinPrivateKeyByteArray(); bytes.unshift(0x80); // prepend 0x80 byte var checksum = Cr",
+          "coinWalletImportFormatCompressed = function () { var bytes = this.getBitcoinPrivateKeyByteArray(); bytes.unshift(0x80); // prepend 0x80 byte bytes.push(0x01)"
+        ],
+        "seed": [
+          "RNG * * NOTE: For best results, put code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document.",
+          "code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document. * * Copyright Tom Wu, bitaddress.org"
+        ],
+        "mask": [
+          "moduleCount; }, make: function () { this.makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleC",
+          "makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleCount = this.typeNumber * 4 + 17; this.modules ="
+        ],
+        "shift": [
+          "/ x3 = v * (z2 * (z1 * u^2 - 2 * x1 * v^2) - v^3) var x3 = zu2.subtract(x1v2.shiftLeft(1)).multiply(b.z).subtract(v3).multiply(v).mod(this.curve.q); // y3 = z2",
+          "3 = 2 * y1 * z1 * (w^2 - 8 * x1 * y1^2 * z1) var x3 = w.square().subtract(x1.shiftLeft(3).multiply(y1sqz1)).shiftLeft(1).multiply(y1z1).mod(this.curve.q); // y"
+        ]
+      }
+    },
+    {
+      "key": "v2.4|1d5951f6a04dd5a287ac925da4e626870ee58d60",
+      "ver": "2.4",
+      "url_sha1": "1d5951f6a04dd5a287ac925da4e626870ee58d60",
+      "n_snapshots": 8,
+      "first_ts": "20130420072538",
+      "last_ts": "20141031025549",
+      "archive_url": "https://web.archive.org/web/20130420072538/https://www.bitaddress.org/bitaddress.org-v2.4-SHA1-1d5951f6a04dd5a287ac925da4e626870ee58d60.html",
+      "file": "bitaddress_2_4_1d5951f6a04d.html",
+      "sha256": "19f8c09f7447dc1f173f8a9c7655411c3fab9f1b58313bc3c4ba5f0890d505b7",
+      "keywords_present": [
+        "brainwallet",
+        "bulk",
+        "deterministic",
+        "mask",
+        "privatekey",
+        "seed",
+        "sequence",
+        "shift"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {
+        "bulk": [
+          "90deg); transform-origin:top left; transform:rotate(-90deg); } #bulkarea .body { padding: 5px 0 0 0; } #bulkarea .format { font-style: italic; fon",
+          "transform:rotate(-90deg); } #bulkarea .body { padding: 5px 0 0 0; } #bulkarea .format { font-style: italic; font-size: 90%; } #bulktextarea { font-size"
+        ],
+        "brainwallet": [
+          "let\" onclick=\"ninja.tabSwitch(this);\">Bulk Wallet</div> <div class=\"tab\" id=\"brainwallet\" onclick=\"ninja.tabSwitch(this);\">Brain Wallet</div> <div class=\"tab\" id=\"va",
+          "=\"\" onfocus=\"this.select();\" onkeypress=\"if (event.keyCode == 13) ninja.wallets.brainwallet.view();\"/> <span><label id=\"brainlabelshow\">Show?</label> <input type=\"ch"
+        ],
+        "deterministic": [
+          "if (key.length >= ninja.wallets.brainwallet.minPassphraseLength) { // Deterministic Wallet confirm box to ask if user wants to SHA256 the input to get a private ke"
+        ],
+        "sequence": [
+          "nent, this.q).equals(qMinusOne))); var result = ec.FieldElementFp.fastLucasSequence(this.q, P, Q, k); U = result[0]; V = result[1]; if (V.multiply(V).",
+          "g) * Ported to JavaScript by bitaddress.org */ ec.FieldElementFp.fastLucasSequence = function (p, P, Q, k) { // TODO Research and apply \"common-multiplicand mu"
+        ],
+        "privatekey": [
+          "ed == undefined) ? !!ECKey.compressByDefault : this.compressed; }; ECKey.privateKeyPrefix = 0x80; // mainnet 0x80 testnet 0xEF /** * Whether public keys",
+          "ype.getBitcoinWalletImportFormat = function () { var bytes = this.getBitcoinPrivateKeyByteArray(); bytes.unshift(ECKey.privateKeyPrefix); // prepend 0x80 byte"
+        ],
+        "seed": [
+          "RNG * * NOTE: For best results, put code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document.",
+          "code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document. * * Copyright Tom Wu, bitaddress.org"
+        ],
+        "mask": [
+          "moduleCount; }, make: function () { this.makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleC",
+          "makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleCount = this.typeNumber * 4 + 17; this.modules ="
+        ],
+        "shift": [
+          "+ p, p = 4u + 3 var z = new ec.FieldElementFp(this.q, this.x.modPow(this.q.shiftRight(2).add(BigInteger.ONE), this.q)); return z.square().equals(this) ? z :",
+          "MinusOne = this.q.subtract(BigInteger.ONE); var legendreExponent = qMinusOne.shiftRight(1); if (!(this.x.modPow(legendreExponent, this.q).equals(BigInteger.ONE"
+        ]
+      }
+    },
+    {
+      "key": "path|ed58ad2441e5b948|2GNUMIHLSGS24UMJXQBRAG3CFI7WKPMM",
+      "ver": "?",
+      "url_sha1": "2GNUMIHLSGS24UMJXQBRAG3CFI7WKPMM",
+      "n_snapshots": 1,
+      "first_ts": "20130429172119",
+      "last_ts": "20130429172119",
+      "archive_url": "https://web.archive.org/web/20130429172119/https://www.bitaddress.org/ninja_bitaddress.org.txt",
+      "file": "bitaddress_?_2GNUMIHLSGS2.html",
+      "sha256": "845e203019e27959dbfdb0dd27ed40f21b7ac915035ffdb73ac18cee3b01cb20",
+      "keywords_present": [
+        "seed"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {
+        "seed": [
+          ",255,0) 90%,rgba(255,255,255,255) 100%);\"></div> Web wide crawl with initial seedlist and crawler configuration from April 2013. </div> </div> </div>"
+        ]
+      }
+    },
+    {
+      "key": "path|f9df83f24e789a4b|J6BCHYVRIMK2DKW2EZRXMCZNC5FJMRSS",
+      "ver": "?",
+      "url_sha1": "J6BCHYVRIMK2DKW2EZRXMCZNC5FJMRSS",
+      "n_snapshots": 1,
+      "first_ts": "20130429180119",
+      "last_ts": "20130429180119",
+      "archive_url": "https://web.archive.org/web/20130429180119/https://www.bitaddress.org/pgpsignedmsg.txt",
+      "file": "bitaddress_?_J6BCHYVRIMK2.html",
+      "sha256": "6bb711ce65efa918d2bbd4675ad0d75ada1fd4afdc5ae6fa5faf18baba21582d",
+      "keywords_present": [
+        "seed"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {
+        "seed": [
+          ",255,0) 90%,rgba(255,255,255,255) 100%);\"></div> Web wide crawl with initial seedlist and crawler configuration from April 2013. </div> </div> </div>"
+        ]
+      }
+    },
+    {
+      "key": "v1.6|162d1ff4fd1e09222cbaca6c282672ee6c195e1b",
+      "ver": "1.6",
+      "url_sha1": "162d1ff4fd1e09222cbaca6c282672ee6c195e1b",
+      "n_snapshots": 1,
+      "first_ts": "20130521083240",
+      "last_ts": "20130521083240",
+      "archive_url": "https://web.archive.org/web/20130521083240/https://www.bitaddress.org/bitaddress.org-v1.6-SHA1-162d1ff4fd1e09222cbaca6c282672ee6c195e1b.html",
+      "file": "bitaddress_1_6_162d1ff4fd1e.html",
+      "sha256": "73a73704a239f8af65d8263a18e6c804e86b89fd8a8b5535b5a90d706e837253",
+      "keywords_present": [
+        "brainwallet",
+        "bulk",
+        "deterministic",
+        "mask",
+        "privatekey",
+        "seed",
+        "sequence",
+        "shift"
+      ],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {
+        "bulk": [
+          "solid green; border-right: 2px solid green; border-left: 2px solid green; } #bulkarea { display: none; padding: 4px 0 0 0; border: 2px solid green; } #bulkarea",
+          "#bulkarea { display: none; padding: 4px 0 0 0; border: 2px solid green; } #bulkarea .label { text-decoration: none; } #bulkarea .format { font-style: italic;"
+        ],
+        "brainwallet": [
+          "let\" onclick=\"ninja.tabSwitch(this);\">Bulk Wallet</div> <div class=\"tab\" id=\"brainwallet\" onclick=\"ninja.tabSwitch(this);\">Brain Wallet</div> <div class=\"tab\" id=\"de",
+          "=\"\" onfocus=\"this.select();\" onkeypress=\"if (event.keyCode == 13) ninja.wallets.brainwallet.view();\"/></span> <span><input type=\"button\" id=\"brainview\" value=\"View\" o"
+        ],
+        "deterministic": [
+          "if (key.length >= ninja.wallets.brainwallet.minPassphraseLength) { // Deterministic Wallet confirm box to ask if user wants to SHA256 the input to get a private ke"
+        ],
+        "sequence": [
+          "Ba = r.toByteArrayUnsigned(); var sBa = s.toByteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER sequence.push(rBa.length);",
+          "signed(); var sBa = s.toByteArrayUnsigned(); var sequence = []; sequence.push(0x02); // INTEGER sequence.push(rBa.length); sequence = sequence"
+        ],
+        "privatekey": [
+          "ype.getBitcoinWalletImportFormat = function () { var bytes = this.getBitcoinPrivateKeyByteArray(); bytes.unshift(0x80); // prepend 0x80 byte var checksum = Cr",
+          "coinWalletImportFormatCompressed = function () { var bytes = this.getBitcoinPrivateKeyByteArray(); bytes.unshift(0x80); // prepend 0x80 byte bytes.push(0x01)"
+        ],
+        "seed": [
+          "RNG * * NOTE: For best results, put code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document.",
+          "code like * <body onclick='SecureRandom.seedTime();' onkeypress='SecureRandom.seedTime();'> * in your main HTML document. * * Copyright Tom Wu, bitaddress.org"
+        ],
+        "mask": [
+          "moduleCount; }, make: function () { this.makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleC",
+          "makeImpl(false, this.getBestMaskPattern()); }, makeImpl: function (test, maskPattern) { this.moduleCount = this.typeNumber * 4 + 17; this.modules ="
+        ],
+        "shift": [
+          "/ x3 = v * (z2 * (z1 * u^2 - 2 * x1 * v^2) - v^3) var x3 = zu2.subtract(x1v2.shiftLeft(1)).multiply(b.z).subtract(v3).multiply(v).mod(this.curve.q); // y3 = z2",
+          "3 = 2 * y1 * z1 * (w^2 - 8 * x1 * y1^2 * z1) var x3 = w.square().subtract(x1.shiftLeft(3).multiply(y1sqz1)).shiftLeft(1).multiply(y1z1).mod(this.curve.q); // y"
+        ]
+      }
+    },
+    {
+      "key": "path|5c1cda8a58ec4276|X3J7NANVSTVOUTTGMVZ2VSLIQTY5R6GH",
+      "ver": "?",
+      "url_sha1": "X3J7NANVSTVOUTTGMVZ2VSLIQTY5R6GH",
+      "n_snapshots": 2,
+      "first_ts": "20130818173550",
+      "last_ts": "20130818203813",
+      "archive_url": "https://web.archive.org/web/20130818173550/http://w.bitaddress.org",
+      "file": "bitaddress_?_X3J7NANVSTVO.html",
+      "sha256": "9419671a4d05017719d6a823f8d960de1a63b2a698c3b2efddf132e1680574e0",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {}
+    },
+    {
+      "key": "path|63269fc463e6a8b9|UOFS5NFGZ5R7ZCZUDC7EWK6EHBQAOSS7",
+      "ver": "?",
+      "url_sha1": "UOFS5NFGZ5R7ZCZUDC7EWK6EHBQAOSS7",
+      "n_snapshots": 1,
+      "first_ts": "20130819142428",
+      "last_ts": "20130819142428",
+      "archive_url": "https://web.archive.org/web/20130819142428/http://w.bitaddress.org/robots.txt",
+      "file": "bitaddress_?_UOFS5NFGZ5R7.html",
+      "sha256": "82a93ba74e4c7b47289dd2bc82492820394e2a01556cc5d8f17af93ab309e626",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {}
+    },
+    {
+      "key": "path|2bc018104ef2df74|VVP2H5I6EOSU2C226CLCVBGIXHPSPIUB",
+      "ver": "?",
+      "url_sha1": "VVP2H5I6EOSU2C226CLCVBGIXHPSPIUB",
+      "n_snapshots": 1,
+      "first_ts": "20131117075904",
+      "last_ts": "20131117075904",
+      "archive_url": "https://web.archive.org/web/20131117075904/http://www.bitaddress.org:80/mirror/bitcoin-0.7.2/",
+      "file": "bitaddress_?_VVP2H5I6EOSU.html",
+      "sha256": "871f4c679899ff67386515e6810bbb65a1257e5d789df1ae88c0d20c7a9eb7af",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK",
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      "keyword_snippets": {}
+    },
+    {
+      "key": "path|8c57192f31d4e7a6|MGCFFKNNJC52SC2WGZKCBIXFDEFZXX35",
+      "ver": "?",
+      "url_sha1": "MGCFFKNNJC52SC2WGZKCBIXFDEFZXX35",
+      "n_snapshots": 1,
+      "first_ts": "20131117134427",
+      "last_ts": "20131117134427",
+      "archive_url": "https://web.archive.org/web/20131117134427/http://www.bitaddress.org:80/pgpsignedmsg.txt",
+      "file": "bitaddress_?_MGCFFKNNJC52.html",
+      "sha256": "d7af8d9785e0aee83cdcd5f03a67ed3bb9749adccf59c182c25c05db4c133d76",
+      "keywords_present": [],
+      "script_srcs": [
+        "https://web-static.archive.org/_static/js/athena.js",
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0",
+        "https://web-static.archive.org/_static/js/jquery-1.11.1.min.js"
+      ],
+      "keyword_snippets": {}
+    }
+  ],
+  "keyword_presence_matrix": [
+    {
+      "ver": "0.6",
+      "sha": "2cc7b6980f8e",
+      "brainwallet": false,
+      "bulk": true,
+      "deterministic": false,
+      "mask": true,
+      "privatekey": true,
+      "seed": true,
+      "sequence": true,
+      "shift": true
+    },
+    {
+      "ver": "?",
+      "sha": "ed53d170e764",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "0.8",
+      "sha": "b5a649da110e",
+      "brainwallet": false,
+      "bulk": true,
+      "deterministic": false,
+      "mask": true,
+      "privatekey": true,
+      "seed": true,
+      "sequence": true,
+      "shift": true
+    },
+    {
+      "ver": "0.5",
+      "sha": "580b3be0f1ef",
+      "brainwallet": false,
+      "bulk": true,
+      "deterministic": false,
+      "mask": true,
+      "privatekey": true,
+      "seed": true,
+      "sequence": true,
+      "shift": true
+    },
+    {
+      "ver": "?",
+      "sha": "d4ad6f6350b4",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "?",
+      "sha": "940a7eace868",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "?",
+      "sha": "8dc13b9c2aef",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "0.7",
+      "sha": "9f4758e3c06d",
+      "brainwallet": false,
+      "bulk": true,
+      "deterministic": false,
+      "mask": true,
+      "privatekey": true,
+      "seed": true,
+      "sequence": true,
+      "shift": true
+    },
+    {
+      "ver": "?",
+      "sha": "6e6b0d7cb2e3",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "1.5",
+      "sha": "24ee04792907",
+      "brainwallet": false,
+      "bulk": true,
+      "deterministic": true,
+      "mask": true,
+      "privatekey": true,
+      "seed": true,
+      "sequence": true,
+      "shift": true
+    },
+    {
+      "ver": "2.4",
+      "sha": "19f8c09f7447",
+      "brainwallet": true,
+      "bulk": true,
+      "deterministic": true,
+      "mask": true,
+      "privatekey": true,
+      "seed": true,
+      "sequence": true,
+      "shift": true
+    },
+    {
+      "ver": "?",
+      "sha": "845e203019e2",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": true,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "?",
+      "sha": "6bb711ce65ef",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": true,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "1.6",
+      "sha": "73a73704a239",
+      "brainwallet": true,
+      "bulk": true,
+      "deterministic": true,
+      "mask": true,
+      "privatekey": true,
+      "seed": true,
+      "sequence": true,
+      "shift": true
+    },
+    {
+      "ver": "?",
+      "sha": "9419671a4d05",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "?",
+      "sha": "82a93ba74e4c",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "?",
+      "sha": "871f4c679899",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    },
+    {
+      "ver": "?",
+      "sha": "d7af8d9785e0",
+      "brainwallet": false,
+      "bulk": false,
+      "deterministic": false,
+      "mask": false,
+      "privatekey": false,
+      "seed": false,
+      "sequence": false,
+      "shift": false
+    }
+  ],
+  "puzzle_like_keys": [
+    "v0.6|1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e",
+    "v0.8|47b989b8a33407df14d21dbd00fad653e0161d6c",
+    "v0.5|7ea8d0e32c3583d369dc4079443e0d6e215ac216",
+    "v0.7|34e344a0d229dc10c8f5c99ed6b6298e6fc5e39f",
+    "v1.5|f2e410251c8741ac65d29a1c6fb8ef6919b6ab8b",
+    "v2.4|1d5951f6a04dd5a287ac925da4e626870ee58d60",
+    "v1.6|162d1ff4fd1e09222cbaca6c282672ee6c195e1b"
+  ],
+  "verdict": {
+    "evidence_grade": "C",
+    "puzzle_link": "none",
+    "reason": "Keyword co-occurrence needs human review \u2014 still no Puzzle primary link"
+  }
+}

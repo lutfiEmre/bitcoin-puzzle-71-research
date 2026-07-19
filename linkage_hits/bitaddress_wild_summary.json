@@ -1,0 +1,132 @@
+{
+  "host": "bitaddress.org",
+  "window": [
+    "2011-01-01",
+    "2015-01-15"
+  ],
+  "cdx": 81,
+  "in_window": 81,
+  "interesting": 56,
+  "samples": [
+    {
+      "ts": "20110922230113",
+      "url": "http://www.bitaddress.org/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html"
+    },
+    {
+      "ts": "20110925174526",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.8-SHA1-47b989b8a33407df14d21dbd00fad653e0161d6c.html"
+    },
+    {
+      "ts": "20110926105853",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.5-SHA1-7ea8d0e32c3583d369dc4079443e0d6e215ac216.html"
+    },
+    {
+      "ts": "20110926105858",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html"
+    },
+    {
+      "ts": "20111028162535",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.8-SHA1-47b989b8a33407df14d21dbd00fad653e0161d6c.html"
+    },
+    {
+      "ts": "20111028165336",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html"
+    },
+    {
+      "ts": "20111028171254",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.5-SHA1-7ea8d0e32c3583d369dc4079443e0d6e215ac216.html"
+    },
+    {
+      "ts": "20111129000830",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.5-SHA1-7ea8d0e32c3583d369dc4079443e0d6e215ac216.html"
+    },
+    {
+      "ts": "20111129001046",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html"
+    },
+    {
+      "ts": "20111129072203",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.8-SHA1-47b989b8a33407df14d21dbd00fad653e0161d6c.html"
+    },
+    {
+      "ts": "20111229210150",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html"
+    },
+    {
+      "ts": "20111229211452",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.5-SHA1-7ea8d0e32c3583d369dc4079443e0d6e215ac216.html"
+    },
+    {
+      "ts": "20111230042625",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.8-SHA1-47b989b8a33407df14d21dbd00fad653e0161d6c.html"
+    },
+    {
+      "ts": "20120607055652",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.7-SHA1-34e344a0d229dc10c8f5c99ed6b6298e6fc5e39f.html"
+    },
+    {
+      "ts": "20120614220343",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.5-SHA1-7ea8d0e32c3583d369dc4079443e0d6e215ac216.html"
+    },
+    {
+      "ts": "20120614222418",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html"
+    },
+    {
+      "ts": "20120614223522",
+      "url": "http://www.bitaddress.org:80/bitaddress.org-v0.8-SHA1-47b989b8a33407df14d21dbd00fad653e0161d6c.html"
+    },
+    {
+      "ts": "20130410200152",
+      "url": "https://www.bitaddress.org/bitaddress.org-v1.5-SHA1-f2e410251c8741ac65d29a1c6fb8ef6919b6ab8b.html"
+    },
+    {
+      "ts": "20130420072538",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.4-SHA1-1d5951f6a04dd5a287ac925da4e626870ee58d60.html"
+    },
+    {
+      "ts": "20130424004721",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.4-SHA1-1d5951f6a04dd5a287ac925da4e626870ee58d60.html"
+    },
+    {
+      "ts": "20130429175553",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.4-SHA1-1d5951f6a04dd5a287ac925da4e626870ee58d60.html?culture=es"
+    },
+    {
+      "ts": "20130429200157",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.4-SHA1-1d5951f6a04dd5a287ac925da4e626870ee58d60.html?culture=fr"
+    },
+    {
+      "ts": "20130429200426",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.4-SHA1-1d5951f6a04dd5a287ac925da4e626870ee58d60.html?culture=en"
+    },
+    {
+      "ts": "20130501195755",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.4-SHA1-1d5951f6a04dd5a287ac925da4e626870ee58d60.html"
+    },
+    {
+      "ts": "20130521083240",
+      "url": "https://www.bitaddress.org/bitaddress.org-v1.6-SHA1-162d1ff4fd1e09222cbaca6c282672ee6c195e1b.html"
+    },
+    {
+      "ts": "20130817165950",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.4-SHA1-1d5951f6a04dd5a287ac925da4e626870ee58d60.html"
+    },
+    {
+      "ts": "20131102041613",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.5.1-SHA1-b7bda19c2327cc44a81b68a44926a9f8057ed681.html"
+    },
+    {
+      "ts": "20131207120544",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.6.5-SHA1-fa763c2bbc97e1b37bc6d3945647aed869ec8c18.html"
+    },
+    {
+      "ts": "20131229212251",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.5.1-SHA1-b7bda19c2327cc44a81b68a44926a9f8057ed681.html"
+    },
+    {
+      "ts": "20140122153707",
+      "url": "https://www.bitaddress.org/bitaddress.org-v2.8.1-SHA1-a6e63f2712851710255a27fa0f22ef7833c2cd07.html"
+    }
+  ]
+}

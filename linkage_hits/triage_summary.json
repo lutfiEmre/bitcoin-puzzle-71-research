@@ -1,0 +1,16 @@
+{
+  "stop": {
+    "status": "CLOSED_PENDING_NEW_EVIDENCE",
+    "line": "PUZZLE_LINKAGE_LINE: CLOSED_PENDING_NEW_EVIDENCE",
+    "has_grade_A": false,
+    "has_strong_B": false,
+    "bitaddress_grade": "C",
+    "scan_allowed": false,
+    "honest_bound": "No justified #71 command: Transform T unknown, seed/root unknown, no Grade A / strong-B primary document beyond the known 2017 creator post."
+  },
+  "bitaddress": {
+    "evidence_grade": "C",
+    "puzzle_link": "none",
+    "reason": "Keyword co-occurrence needs human review \u2014 still no Puzzle primary link"
+  }
+}
