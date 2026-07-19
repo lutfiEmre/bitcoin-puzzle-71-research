@@ -1,0 +1,33 @@
+# Secrets / runtime
+.env
+.env.*
+*.pem
+*TOKEN*
+*SECRET*
+
+# Hunters / grinders / local tooling (NOT for public research publish)
+puzzle71_native.c
+puzzle71.py
+generator_cascade.py
+verify_candidate.py
+bit_correlation.py
+safe_derivation_lab.py
+build_native.sh
+run_max.sh
+telegram_watcher.sh
+run_bq_fingerprint.sh
+demo_FOUND.txt
+*_FOUND.txt
+puzzle71_CANDIDATE.*
+solved_keys.json
+
+# Local research caches / clones
+_research_bau/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Editor / Cursor
+.cursorrules
+.cursor/
