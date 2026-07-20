@@ -26,6 +26,15 @@ solved_keys.json
 archive_artifacts/
 linkage_hits/bitaddress_unique/
 
+# Synthetic lab outputs (regenerable)
+synthetic_lab_out/
+
+# Primary evidence inbox dumps / alerts (state JSON is tracked)
+primary_evidence_inbox/*
+!primary_evidence_inbox/README.md
+primary_evidence_alerts/
+primary_evidence_quarantine/
+
 # Local research caches / clones
 _research_bau/
 bq_results/

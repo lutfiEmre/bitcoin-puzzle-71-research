@@ -1,0 +1,16 @@
+gate	search_value	evidence_window_start	discovery_window_end	material_type_hint	notes
+G4	saatoshi_rising	2015-01-15	2030-12-31	creator_message	Second technical post ≠ copy of 2017-04-27
+G4	Satoshi_Rising	2015-01-15	2030-12-31	creator_message	Handle variant
+G4	consecutive keys from a deterministic wallet	2015-01-15	2030-12-31	creator_phrase	Independent earlier/later technical source only
+G4	masked with leading	2015-01-15	2030-12-31	creator_phrase	
+G4	crude measuring instrument	2015-01-15	2030-12-31	creator_phrase	
+G4	cracking strength of the community	2015-01-15	2030-12-31	creator_phrase	
+G1	wallet backup saatoshi OR puzzle deterministic	2015-01-15	2030-12-31	wallet_backup	Creator-linked only
+G2	xpub OR mpk OR "chain code" puzzle OR saatoshi	2015-01-15	2030-12-31	mpk_root_xpub	Must tie to Puzzle addresses
+G3	leading bit mask private key OR "2^(n-1)" bitcoin puzzle	2011-01-01	2030-12-31	mask_T_code	Exact T operator in code
+G5	08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15	2015-01-15	2030-12-31	txid_context	Non-explorer; seed/generator binding
+G5	1Czoy8xtddvcGrEhUUCZDQ9QqdRfKh697F	2015-01-15	2030-12-31	addr_context	Non-explorer donation/gist/backup
+G5	173ujrhEVGqaZvPHXLqwXiSmPVMo225cqT	2015-01-15	2030-12-31	addr_context	Non-explorer
+G5	1CENDvi6tmKGrR8RxqwURpX9WHbbKip1db	2015-01-15	2030-12-31	addr_context	Top-up; non-explorer
+G3	0000000000000001 mask deterministic	2011-01-01	2030-12-31	mask_T_code	Structural constant in code
+G5	256 outputs 100000 satoshi deterministic	2015-01-15	2030-12-31	builder_script	Puzzle builder source

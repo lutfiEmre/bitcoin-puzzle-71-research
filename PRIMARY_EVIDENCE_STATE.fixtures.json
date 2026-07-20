@@ -1,0 +1,139 @@
+{
+  "version": 2,
+  "created": "2026-07-20T00:05:00Z",
+  "baseline_2017": {
+    "post_id": "18687273",
+    "author": "saatoshi_rising",
+    "canonical_content_sha256": "4d46ddd65933a326024be7552deb1d27dec92d50c2c3bfa123fbe9110fce25d5"
+  },
+  "known_baseline_normalized_sha256": [
+    "4d46ddd65933a326024be7552deb1d27dec92d50c2c3bfa123fbe9110fce25d5"
+  ],
+  "seen_candidates": {
+    "fb3586491f8e978ff433b1f1f1e8d7caa9c67d90f8d3ad0150108ca568ed1b67": {
+      "source_url": "file://testdata/primary_evidence/same_thread_new_post.html",
+      "archive_url": "",
+      "canonical_url": "file://testdata/primary_evidence/same_thread_new_post.html",
+      "author": "saatoshi_rising",
+      "published_at": "May 01, 2017",
+      "snapshot_at": "2026-07-20T00:09:12Z",
+      "post_id": "99999888",
+      "exact_excerpt": "00:00 pm follow-up: consecutive keys from a deterministic wallet details \u2014 here is additional techni",
+      "independent_source": "unknown",
+      "creator_link": "none",
+      "puzzle_link": "none",
+      "material_type": "creator_message",
+      "auto_status": "MANUAL_REVIEW_G4",
+      "grade": "pending",
+      "gate": "G4",
+      "matched_targets": [
+        "saatoshi_rising",
+        "consecutive keys from a deterministic wallet",
+        "xpub OR mpk OR \"chain code\" puzzle OR saatoshi"
+      ],
+      "evidence_window_note": "in_or_after_evidence_window",
+      "raw_sha256": "4f6e9fa60457d1ab6c8d0f89cb58fcb215bc2b462ad3859ce52de44226d76763",
+      "normalized_content_sha256": "fb3586491f8e978ff433b1f1f1e8d7caa9c67d90f8d3ad0150108ca568ed1b67",
+      "reason": "same_author_different_post_needs_human",
+      "ingested_via": "file:same_thread_new_post.html"
+    },
+    "492c559eedbb3965cd75323324d054780fb7c8466826fd8d209eb0118f628209": {
+      "source_url": "file://testdata/primary_evidence/baseline_2017.html",
+      "archive_url": "",
+      "canonical_url": "file://testdata/primary_evidence/baseline_2017.html",
+      "author": "saatoshi_rising",
+      "published_at": "April 27, 2017",
+      "snapshot_at": "2026-07-20T00:10:43Z",
+      "post_id": "18687273",
+      "exact_excerpt": " 12:00:00 pm i used consecutive keys from a deterministic wallet, masked with leading 000...0001 bit",
+      "independent_source": "unknown",
+      "creator_link": "baseline",
+      "puzzle_link": "none",
+      "material_type": "creator_message_baseline",
+      "auto_status": "REJECT_BASELINE",
+      "grade": "pending",
+      "gate": "G4",
+      "matched_targets": [
+        "saatoshi_rising",
+        "consecutive keys from a deterministic wallet",
+        "masked with leading",
+        "crude measuring instrument",
+        "cracking strength of the community",
+        "xpub OR mpk OR \"chain code\" puzzle OR saatoshi"
+      ],
+      "evidence_window_note": "in_or_after_evidence_window",
+      "raw_sha256": "81425c660501a85b7a20b265032eb1aad2ec76a99a795f024720d5700ff79ab3",
+      "normalized_content_sha256": "492c559eedbb3965cd75323324d054780fb7c8466826fd8d209eb0118f628209",
+      "reason": "known_2017_post_id_author_phrases",
+      "ingested_via": "file:baseline_2017.html"
+    },
+    "47f2c34652a4652a7c35f57be0e5d086b1684026db1e5760b497f2b528723003": {
+      "source_url": "file://testdata/primary_evidence/mask_t_plus_txid.py.txt",
+      "archive_url": "",
+      "canonical_url": "file://testdata/primary_evidence/mask_t_plus_txid.py.txt",
+      "author": "",
+      "published_at": "",
+      "snapshot_at": "2026-07-20T00:10:55Z",
+      "post_id": "",
+      "exact_excerpt": "mask # funded in tx 08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15 # bitcoin puzzl",
+      "independent_source": "unknown",
+      "creator_link": "none",
+      "puzzle_link": "none",
+      "material_type": "mask_T_code",
+      "auto_status": "MANUAL_REVIEW_G3",
+      "grade": "pending",
+      "gate": "G3",
+      "matched_targets": [
+        "08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15"
+      ],
+      "evidence_window_note": "unknown",
+      "raw_sha256": "05034cd92d3837b73ee939cd90e68d8ccd9efe63fb512b3ce39c18dfc48c3294",
+      "normalized_content_sha256": "47f2c34652a4652a7c35f57be0e5d086b1684026db1e5760b497f2b528723003",
+      "reason": "mask_code_plus_puzzle_needs_human",
+      "ingested_via": "file:mask_t_plus_txid.py.txt"
+    },
+    "a0004981200088f8203de2dd7a608b7cc527d4eeed1032ac54a62ad1ce31ae25": {
+      "source_url": "file://testdata/primary_evidence/fake_seed_puzzle.html",
+      "archive_url": "",
+      "canonical_url": "file://testdata/primary_evidence/fake_seed_puzzle.html",
+      "author": "",
+      "published_at": "",
+      "snapshot_at": "2026-07-20T00:10:55Z",
+      "post_id": "",
+      "exact_excerpt": "i think the seed=puzzle and it could be electrum",
+      "independent_source": "unknown",
+      "creator_link": "none",
+      "puzzle_link": "none",
+      "material_type": "keyword_context",
+      "auto_status": "KEYWORD_HIT",
+      "grade": "pending",
+      "gate": "G5",
+      "matched_targets": [],
+      "evidence_window_note": "unknown",
+      "raw_sha256": "f6e27b0298f44e376c9466f22816c43df8761ca0cbe851f784fbf5c7dc23ab52",
+      "normalized_content_sha256": "a0004981200088f8203de2dd7a608b7cc527d4eeed1032ac54a62ad1ce31ae25",
+      "reason": "seed_equals_puzzle_without_material",
+      "ingested_via": "file:fake_seed_puzzle.html"
+    }
+  },
+  "alerts": [
+    {
+      "normalized_content_sha256": "fb3586491f8e978ff433b1f1f1e8d7caa9c67d90f8d3ad0150108ca568ed1b67",
+      "auto_status": "MANUAL_REVIEW_G4",
+      "gate": "G4",
+      "file": "REVIEW_MANUAL_REVIEW_G4_fb3586491f8e.json",
+      "at": "2026-07-20T00:08:35Z"
+    },
+    {
+      "normalized_content_sha256": "47f2c34652a4652a7c35f57be0e5d086b1684026db1e5760b497f2b528723003",
+      "auto_status": "MANUAL_REVIEW_G3",
+      "gate": "G3",
+      "file": "REVIEW_MANUAL_REVIEW_G3_47f2c34652a4.json",
+      "at": "2026-07-20T00:10:55Z"
+    }
+  ],
+  "quarantine": [],
+  "last_run": "2026-07-20T00:10:55Z",
+  "last_status": "NO_NEW_PRIMARY_EVIDENCE",
+  "note": "Baseline is post-level (msg18687273), not whole topic=1306983. Grade A/B only via --confirm-grade."
+}

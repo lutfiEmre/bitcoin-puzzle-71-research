@@ -1,0 +1,7 @@
+
+# hypothetical historical snippet
+def mask_key(k, n):
+    return (1 << (n - 1)) | (k & ((1 << (n - 1)) - 1))  # leading bit mask
+
+# funded in tx 08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15
+# bitcoin puzzle builder

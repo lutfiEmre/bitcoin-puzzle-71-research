@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "created": "2026-07-20T00:12:18Z",
+  "known_baseline_sha256": [],
+  "seen_candidates": {},
+  "alerts": [],
+  "last_run": "2026-07-20T00:12:23Z",
+  "last_status": "NO_NEW_PRIMARY_EVIDENCE",
+  "note": "Production state. Test fixtures are stored separately.",
+  "baseline_2017": {
+    "post_id": "18687273",
+    "author": "saatoshi_rising",
+    "canonical_content_sha256": "4d46ddd65933a326024be7552deb1d27dec92d50c2c3bfa123fbe9110fce25d5"
+  },
+  "known_baseline_normalized_sha256": [
+    "4d46ddd65933a326024be7552deb1d27dec92d50c2c3bfa123fbe9110fce25d5"
+  ],
+  "quarantine": []
+}

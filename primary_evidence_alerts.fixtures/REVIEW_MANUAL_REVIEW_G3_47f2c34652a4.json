@@ -1,0 +1,26 @@
+{
+  "source_url": "file://testdata/primary_evidence/mask_t_plus_txid.py.txt",
+  "archive_url": "",
+  "canonical_url": "file://testdata/primary_evidence/mask_t_plus_txid.py.txt",
+  "author": "",
+  "published_at": "",
+  "snapshot_at": "2026-07-20T00:10:55Z",
+  "post_id": "",
+  "exact_excerpt": "mask # funded in tx 08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15 # bitcoin puzzl",
+  "independent_source": "unknown",
+  "creator_link": "none",
+  "puzzle_link": "none",
+  "material_type": "mask_T_code",
+  "auto_status": "MANUAL_REVIEW_G3",
+  "grade": "pending",
+  "gate": "G3",
+  "matched_targets": [
+    "08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15"
+  ],
+  "evidence_window_note": "unknown",
+  "raw_sha256": "05034cd92d3837b73ee939cd90e68d8ccd9efe63fb512b3ce39c18dfc48c3294",
+  "normalized_content_sha256": "47f2c34652a4652a7c35f57be0e5d086b1684026db1e5760b497f2b528723003",
+  "reason": "mask_code_plus_puzzle_needs_human",
+  "ingested_via": "file:mask_t_plus_txid.py.txt",
+  "is_new": true
+}

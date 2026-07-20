@@ -1,0 +1,28 @@
+{
+  "source_url": "file://testdata/primary_evidence/same_thread_new_post.html",
+  "archive_url": "",
+  "canonical_url": "file://testdata/primary_evidence/same_thread_new_post.html",
+  "author": "saatoshi_rising",
+  "published_at": "May 01, 2017",
+  "snapshot_at": "2026-07-20T00:08:35Z",
+  "post_id": "99999888",
+  "exact_excerpt": "00:00 pm follow-up: consecutive keys from a deterministic wallet details \u2014 here is additional techni",
+  "independent_source": "unknown",
+  "creator_link": "none",
+  "puzzle_link": "none",
+  "material_type": "creator_message",
+  "auto_status": "MANUAL_REVIEW_G4",
+  "grade": "pending",
+  "gate": "G4",
+  "matched_targets": [
+    "saatoshi_rising",
+    "consecutive keys from a deterministic wallet",
+    "xpub OR mpk OR \"chain code\" puzzle OR saatoshi"
+  ],
+  "evidence_window_note": "in_or_after_evidence_window",
+  "raw_sha256": "4f6e9fa60457d1ab6c8d0f89cb58fcb215bc2b462ad3859ce52de44226d76763",
+  "normalized_content_sha256": "fb3586491f8e978ff433b1f1f1e8d7caa9c67d90f8d3ad0150108ca568ed1b67",
+  "reason": "same_author_different_post_needs_human",
+  "ingested_via": "file:same_thread_new_post.html",
+  "is_new": true
+}
