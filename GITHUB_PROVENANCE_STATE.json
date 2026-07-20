@@ -1,0 +1,1068 @@
+{
+  "at": "2026-07-20T07:57:02Z",
+  "rows": [
+    {
+      "repository": "pbies/bitcoin-tools",
+      "matched_path": "python/p71-01.py",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:25Z",
+      "repo_created_at": "2021-10-06T02:35:00Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-06-19T21:27:36Z",
+      "archived": false,
+      "first_commit_sha": "65cd71f3079a2a3ded4c9d50a915fba2545d2b38",
+      "first_commit_date": "2026-02-16T22:08:29Z",
+      "commit_author": "pbies",
+      "commit_author_email": "pmbiesiada@gmail.com",
+      "commit_message": "many new",
+      "html_url": "https://github.com/pbies/bitcoin-tools/commit/65cd71f3079a2a3ded4c9d50a915fba2545d2b38",
+      "exact_matching_lines": [
+        "L10: target='1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU'"
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "accessor-io/pattern",
+      "matched_path": "src/bitcoin_puzzle_solver.py",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:27Z",
+      "repo_created_at": "2024-12-21T06:39:34Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "feature/analyze-key-transitions",
+      "pushed_at": "2025-06-13T03:53:22Z",
+      "archived": false,
+      "first_commit_sha": "b1706a0400c602dc318b32047a68cd3374687251",
+      "first_commit_date": "2025-04-20T18:49:55Z",
+      "commit_author": "User",
+      "commit_author_email": "user@example.com",
+      "commit_message": "Initial commit (recovering from repo corruption)",
+      "html_url": "https://github.com/accessor-io/pattern/commit/b1706a0400c602dc318b32047a68cd3374687251",
+      "exact_matching_lines": [
+        "L3: txid_hex = \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "alex-place/lantern-os",
+      "matched_path": "experiments/sigma0_btc_puzzle_structure.py",
+      "queries": [
+        "\"consecutive keys from a deterministic wallet\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:29Z",
+      "repo_created_at": "2026-05-26T09:36:44Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2026-07-20T03:51:12Z",
+      "archived": false,
+      "first_commit_sha": "be8245571bab99c607b98b08420c61f8ec974992",
+      "first_commit_date": "2026-06-16T20:48:53Z",
+      "commit_author": "Alex Place",
+      "commit_author_email": "alex.place.7@gmail.com",
+      "commit_message": "feat(sigma0): Kalshi \u03a3\u2080 deck ranking + status-cube interpreter + grounded puzzle test",
+      "html_url": "https://github.com/alex-place/lantern-os/commit/be8245571bab99c607b98b08420c61f8ec974992",
+      "exact_matching_lines": [
+        "L56: \"There is no pattern. It is just consecutive keys from a deterministic wallet \"",
+        "L267: \"consecutive keys from a deterministic wallet.' A generator exists \""
+      ],
+      "source_cited_by_file": [
+        "saatoshi_rising",
+        "saatoshi_rising",
+        "privatekeys.pw",
+        "btcpuzzle.info"
+      ],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "alex-place/lantern-os",
+      "matched_path": "data/sigma0_btc_puzzle_structure_report.json",
+      "queries": [
+        "\"consecutive keys from a deterministic wallet\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:31Z",
+      "repo_created_at": "2026-05-26T09:36:44Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2026-07-20T03:51:12Z",
+      "archived": false,
+      "first_commit_sha": "be8245571bab99c607b98b08420c61f8ec974992",
+      "first_commit_date": "2026-06-16T20:48:53Z",
+      "commit_author": "Alex Place",
+      "commit_author_email": "alex.place.7@gmail.com",
+      "commit_message": "feat(sigma0): Kalshi \u03a3\u2080 deck ranking + status-cube interpreter + grounded puzzle test",
+      "html_url": "https://github.com/alex-place/lantern-os/commit/be8245571bab99c607b98b08420c61f8ec974992",
+      "exact_matching_lines": [
+        "L53: \"creator_statement\": \"There is no pattern. It is just consecutive keys from a deterministic wallet (masked with leading 000...0001 to set difficulty). It is simply a crude measuring instrument, of the cracking strength o",
+        "L61: \"result\": \"CLOSED by two convergent sources: (1) the instrument returns UNDECIDED on 82 verified real keys (nesting falsified ~2/69, chance-level); (2) the creator states 'There is no pattern... consecutive keys from a d"
+      ],
+      "source_cited_by_file": [
+        "saatoshi_rising",
+        "privatekeys.pw",
+        "btcpuzzle.info"
+      ],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "consigcody94/glv-kangaroo-paper",
+      "matched_path": "supplementary/bitcoin_puzzle_anatomy.md",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\"",
+        "\"consecutive keys from a deterministic wallet\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:33Z",
+      "repo_created_at": "2026-03-21T17:48:18Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-03-30T22:45:57Z",
+      "archived": false,
+      "first_commit_sha": "abd129f8ae02f18814ea4677690b4a0ac2d3ed05",
+      "first_commit_date": "2026-03-22T00:24:14Z",
+      "commit_author": "Pentest Agent",
+      "commit_author_email": "agent@localhost",
+      "commit_message": "Add definitive Bitcoin Puzzle analysis: wallet identification and security proof",
+      "html_url": "https://github.com/consigcody94/glv-kangaroo-paper/commit/abd129f8ae02f18814ea4677690b4a0ac2d3ed05",
+      "exact_matching_lines": [
+        "L3: **The Bitcoin Puzzle Challenge\u2014256 addresses funded on January 15, 2015 by the pseudonymous \"saatoshi_rising\"\u2014almost certainly used Electrum 1.9.x to generate its keys, but the master key recovery attack implied by the u",
+        "L11: > *\"I am the creator. You are quite right, 161\u2013256 are silly. I honestly just did not think of this. What is especially embarrassing, is this did not occur to me once, in two years. By way of excuse, I was not really thi",
+        "L40: The January 15, 2015 funding transaction (**08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15**) has distinctive structural features:",
+        "L90: \"Consecutive keys from a deterministic wallet\" almost certainly means **sequential derivation indices** (i = 0, 1, 2, ... 255), consistent with both Electrum 1.x's flat indexing and BIP32's child key numbering. The Homel"
+      ],
+      "source_cited_by_file": [
+        "saatoshi_rising",
+        "saatoshi_rising",
+        "saatoshi_rising",
+        "saatoshi_rising",
+        "saatoshi_rising",
+        "privatekeys.pw,"
+      ],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "consigcody94/glv-kangaroo-paper",
+      "matched_path": "supplementary/full_research_compilation.md",
+      "queries": [
+        "\"consecutive keys from a deterministic wallet\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:35Z",
+      "repo_created_at": "2026-03-21T17:48:18Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-03-30T22:45:57Z",
+      "archived": false,
+      "first_commit_sha": "ae6396223af4df0a9268b797596281b6fae73534",
+      "first_commit_date": "2026-03-21T17:47:28Z",
+      "commit_author": "Pentest Agent",
+      "commit_author_email": "agent@localhost",
+      "commit_message": "Initial release: Cycle-Free Kangaroo Walks on GLV Endomorphism Equivalence Classes",
+      "html_url": "https://github.com/consigcody94/glv-kangaroo-paper/commit/ae6396223af4df0a9268b797596281b6fae73534",
+      "exact_matching_lines": [
+        "L63: - Creator confirmed: \"consecutive keys from a deterministic wallet\""
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "HomelessPhD/BTC32",
+      "matched_path": "BTC32_Brute/Pzl32_unspentList.txt",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:37Z",
+      "repo_created_at": "2021-03-14T18:51:50Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2024-09-13T17:51:32Z",
+      "archived": false,
+      "first_commit_sha": "5bd14c387c1a9b16e8e7cc3e589a4b5a678c7c0f",
+      "first_commit_date": "2021-03-14T19:11:18Z",
+      "commit_author": "HomelessPhD",
+      "commit_author_email": "80585811+HomelessPhD@users.noreply.github.com",
+      "commit_message": "Add files via upload",
+      "html_url": "https://github.com/HomelessPhD/BTC32/commit/5bd14c387c1a9b16e8e7cc3e589a4b5a678c7c0f",
+      "exact_matching_lines": [
+        "L6: 71,1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU"
+      ],
+      "source_cited_by_file": [],
+      "class": "LIST_OR_TRACKER",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "HomelessPhD/BTC32",
+      "matched_path": "README.md",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\"",
+        "\"msg18765941\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:39Z",
+      "repo_created_at": "2021-03-14T18:51:50Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2024-09-13T17:51:32Z",
+      "archived": false,
+      "first_commit_sha": "a4dfe6e3bb253b020ae28d432c2067e25bca2118",
+      "first_commit_date": "2021-03-14T18:51:51Z",
+      "commit_author": "HomelessPhD",
+      "commit_author_email": "80585811+HomelessPhD@users.noreply.github.com",
+      "commit_message": "Initial commit",
+      "html_url": "https://github.com/HomelessPhD/BTC32/commit/a4dfe6e3bb253b020ae28d432c2067e25bca2118",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "LIST_OR_TRACKER",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "FMLBeast/cryptopuzzles",
+      "matched_path": "cryptocurrency_puzzles/community/bitcointalk_forum_strategies.md",
+      "queries": [
+        "\"consecutive keys from a deterministic wallet\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:42Z",
+      "repo_created_at": "2025-11-10T18:28:51Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "claude/collect-cryptopuzzle-info-011CUzgcm92jP42YtF2sVGpG",
+      "pushed_at": "2025-11-11T00:54:09Z",
+      "archived": false,
+      "first_commit_sha": "34be7b89c4abdf3fe0caf71aebca84340c86a57b",
+      "first_commit_date": "2025-11-10T21:15:37Z",
+      "commit_author": "Claude",
+      "commit_author_email": "noreply@anthropic.com",
+      "commit_message": "Add comprehensive forum and Medium writeups collection",
+      "html_url": "https://github.com/FMLBeast/cryptopuzzles/commit/34be7b89c4abdf3fe0caf71aebca84340c86a57b",
+      "exact_matching_lines": [
+        "L15: The Bitcoin puzzle was created in 2015 as **\"a crude measuring instrument, of the cracking strength of the community.\"** The creator used consecutive keys from a deterministic wallet masked with leading zeros to set diff"
+      ],
+      "source_cited_by_file": [
+        "privatekeys.pw/puzzles/bitcoin-puzzle-tx**",
+        "privatekeys.pw,",
+        "btcpuzzle.info`",
+        "btcpuzzle.info**",
+        "btcpuzzle.info,"
+      ],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "JeanLucPons/Kangaroo",
+      "matched_path": "README.md",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:45Z",
+      "repo_created_at": "2020-04-21T05:39:03Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2024-05-19T19:43:24Z",
+      "archived": false,
+      "first_commit_sha": "89dc1fea397008f30a4f538dd8a7a0d84695dbcd",
+      "first_commit_date": "2020-04-21T07:09:47Z",
+      "commit_author": "Jean-Luc PONS",
+      "commit_author_email": "pons@esrf.fr",
+      "commit_message": "Create README.md",
+      "html_url": "https://github.com/JeanLucPons/Kangaroo/commit/89dc1fea397008f30a4f538dd8a7a0d84695dbcd",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "LIST_OR_TRACKER",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "MatthewLM/bitcoinj-extra",
+      "matched_path": "core/src/main/java/org/bitcoinj_extra/crypto/DeterministicKey.java",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:47Z",
+      "repo_created_at": "2016-08-31T17:13:49Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2016-08-31T17:19:19Z",
+      "archived": false,
+      "first_commit_sha": "0b3b0fd31975470c57aacc5bcf169e83a37ed628",
+      "first_commit_date": "2016-07-14T14:46:51Z",
+      "commit_author": "Matthew Mitchell",
+      "commit_author_email": "matthewmitchell@thelibertyportal.com",
+      "commit_message": "Changes from bitcoinj allowing for Shapeshift support",
+      "html_url": "https://github.com/MatthewLM/bitcoinj-extra/commit/0b3b0fd31975470c57aacc5bcf169e83a37ed628",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "SECONDARY_RESEARCH",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "Mehdi256/Rotor-Cuda",
+      "matched_path": "README.md",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:49Z",
+      "repo_created_at": "2023-05-29T20:22:06Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2025-09-30T04:23:08Z",
+      "archived": false,
+      "first_commit_sha": "deb0f264b89cb0214cb9ac10336de6508190a6b9",
+      "first_commit_date": "2021-10-21T08:36:04Z",
+      "commit_author": "LostCoins",
+      "commit_author_email": "82582647+phrutis@users.noreply.github.com",
+      "commit_message": "Initial commit",
+      "html_url": "https://github.com/Mehdi256/Rotor-Cuda/commit/deb0f264b89cb0214cb9ac10336de6508190a6b9",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "LIST_OR_TRACKER",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "Mizogg/Mizogg-Tools",
+      "matched_path": "btc.txt",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:54Z",
+      "repo_created_at": "2022-02-16T19:01:52Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2025-02-28T16:43:08Z",
+      "archived": false,
+      "first_commit_sha": "05542eadc9592c20861ad60da0330d5b490439d6",
+      "first_commit_date": "2022-02-27T22:26:23Z",
+      "commit_author": "Mizogg",
+      "commit_author_email": "88630056+Mizogg@users.noreply.github.com",
+      "commit_message": "Folder path and added file",
+      "html_url": "https://github.com/Mizogg/Mizogg-Tools/commit/05542eadc9592c20861ad60da0330d5b490439d6",
+      "exact_matching_lines": [
+        "L72: 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU"
+      ],
+      "source_cited_by_file": [],
+      "class": "LIST_OR_TRACKER",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "StableExo/TheWarden",
+      "matched_path": "data/puzzle_summary_2025.txt",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:55:59Z",
+      "repo_created_at": "2025-10-29T08:01:45Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-07-15T01:32:34Z",
+      "archived": false,
+      "first_commit_sha": "6c4ef70900776528bd3159068fa10528337760c5",
+      "first_commit_date": "2025-12-12T11:25:39Z",
+      "commit_author": "copilot-swe-agent[bot]",
+      "commit_author_email": "198982749+Copilot@users.noreply.github.com",
+      "commit_message": "Successfully collected all Bitcoin puzzle UTXOs - 916.51 BTC in leftovers!",
+      "html_url": "https://github.com/StableExo/TheWarden/commit/6c4ef70900776528bd3159068fa10528337760c5",
+      "exact_matching_lines": [
+        "L421: Transaction: 08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15"
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "StableExo/TheWarden",
+      "matched_path": "github/docs/bitcoin/BITCOIN_PUZZLE_FRESH_EXPLORATION_2025.md",
+      "queries": [
+        "\"consecutive keys from a deterministic wallet\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:01Z",
+      "repo_created_at": "2025-10-29T08:01:45Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-07-15T01:32:34Z",
+      "archived": false,
+      "first_commit_sha": "948575715db57208a7d1cf01953876e86de7ffb2",
+      "first_commit_date": "2026-05-25T17:42:11Z",
+      "commit_author": "StableExo",
+      "commit_author_email": "stableexo@gmail.com",
+      "commit_message": "GL-L27: Repo curation \u2014 move docs/ \u2192 github/docs/, .memory/ \u2192 .memory-exports/, red_web/ \u2192 gumloop/red_web/ [233 files]",
+      "html_url": "https://github.com/StableExo/TheWarden/commit/948575715db57208a7d1cf01953876e86de7ffb2",
+      "exact_matching_lines": [
+        "L46: > \"There is no pattern. It is just consecutive keys from a deterministic wallet (masked with leading 000...0001 to set difficulty).\""
+      ],
+      "source_cited_by_file": [
+        "saatoshi_rising",
+        "saatoshi_rising",
+        "saatoshi_rising"
+      ],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "StableExo/TheWarden",
+      "matched_path": "github/docs/research/ADDRESS_TYPE_ANALYSIS.md",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:03Z",
+      "repo_created_at": "2025-10-29T08:01:45Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-07-15T01:32:34Z",
+      "archived": false,
+      "first_commit_sha": "948575715db57208a7d1cf01953876e86de7ffb2",
+      "first_commit_date": "2026-05-25T17:42:11Z",
+      "commit_author": "StableExo",
+      "commit_author_email": "stableexo@gmail.com",
+      "commit_message": "GL-L27: Repo curation \u2014 move docs/ \u2192 github/docs/, .memory/ \u2192 .memory-exports/, red_web/ \u2192 gumloop/red_web/ [233 files]",
+      "html_url": "https://github.com/StableExo/TheWarden/commit/948575715db57208a7d1cf01953876e86de7ffb2",
+      "exact_matching_lines": [
+        "L24: Address: 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU",
+        "L63: 5. Compare with target: 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU",
+        "L202: print(f\"Target address: 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\")",
+        "L203: print(f\"Match: {predicted_address == '1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU'}\")",
+        "L287: curl \"https://blockchain.info/address/1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU?format=json\"",
+        "L315: 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU"
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "basvandorst/where-is-satoshi",
+      "matched_path": "data/bitcoin-dev/jim618_fastmail_co_uk.txt",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:05Z",
+      "repo_created_at": "2024-04-13T21:21:49Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2024-04-13T23:01:17Z",
+      "archived": false,
+      "first_commit_sha": "a28608a6a96463af0cb666e919fd307d28684271",
+      "first_commit_date": "2024-04-13T21:46:05Z",
+      "commit_author": "Bas van Dorst",
+      "commit_author_email": "basvandorst@gmail.com",
+      "commit_message": "first commit",
+      "html_url": "https://github.com/basvandorst/where-is-satoshi/commit/a28608a6a96463af0cb666e919fd307d28684271",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "bekli23/GpuCracker",
+      "matched_path": "main_html/index.html",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:07Z",
+      "repo_created_at": "2025-12-27T15:21:06Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-03-07T12:48:16Z",
+      "archived": false,
+      "first_commit_sha": "038c5dc71ae2ac397cd1bb5bd2a1e71fa65996f6",
+      "first_commit_date": "2026-02-22T10:29:01Z",
+      "commit_author": "Stefan",
+      "commit_author_email": "bekli23@yahoo.com",
+      "commit_message": "Add files via upload",
+      "html_url": "https://github.com/bekli23/GpuCracker/commit/038c5dc71ae2ac397cd1bb5bd2a1e71fa65996f6",
+      "exact_matching_lines": [
+        "L166: Address: 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU<br><br>"
+      ],
+      "source_cited_by_file": [
+        "https://bitcointalk.org/index.php?topic=1306983.0",
+        "privatekeys.pw/puzzles/bitcoin-puzzle-tx"
+      ],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "berryjam/bitcoinj",
+      "matched_path": "core/src/main/java/org/bitcoinj/crypto/DeterministicHierarchy.java",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:09Z",
+      "repo_created_at": "2024-03-11T12:58:44Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2024-03-28T13:30:35Z",
+      "archived": false,
+      "first_commit_sha": "0a6f901b23524af1ee178174a35d06de3d0e29fd",
+      "first_commit_date": "2014-09-30T15:05:06Z",
+      "commit_author": "Mike Hearn",
+      "commit_author_email": "mike@plan99.net",
+      "commit_message": "Renamespace to org.bitcoinj away from com.google.bitcoin, as bitcoinj is no longer a Google project and being namespaced under com.google causes issues with Sonatype/Maven Central.",
+      "html_url": "https://github.com/berryjam/bitcoinj/commit/0a6f901b23524af1ee178174a35d06de3d0e29fd",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "HISTORICAL_INTEREST",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "bingoer/bitcoinj_sourcecode_analysis",
+      "matched_path": "core/src/main/java/org/bitcoinj/crypto/DeterministicKey.java",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:11Z",
+      "repo_created_at": "2018-03-23T05:48:08Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2018-04-11T05:31:20Z",
+      "archived": false,
+      "first_commit_sha": "0a6f901b23524af1ee178174a35d06de3d0e29fd",
+      "first_commit_date": "2014-09-30T15:05:06Z",
+      "commit_author": "Mike Hearn",
+      "commit_author_email": "mike@plan99.net",
+      "commit_message": "Renamespace to org.bitcoinj away from com.google.bitcoin, as bitcoinj is no longer a Google project and being namespaced under com.google causes issues with Sonatype/Maven Central.",
+      "html_url": "https://github.com/bingoer/bitcoinj_sourcecode_analysis/commit/0a6f901b23524af1ee178174a35d06de3d0e29fd",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "HISTORICAL_INTEREST",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "bitcoinj/bitcoinj",
+      "matched_path": "core/src/main/java/org/bitcoinj/crypto/DeterministicHierarchy.java",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:13Z",
+      "repo_created_at": "2013-11-19T04:33:23Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2026-07-17T13:50:07Z",
+      "archived": false,
+      "first_commit_sha": "0a6f901b23524af1ee178174a35d06de3d0e29fd",
+      "first_commit_date": "2014-09-30T15:05:06Z",
+      "commit_author": "Mike Hearn",
+      "commit_author_email": "mike@plan99.net",
+      "commit_message": "Renamespace to org.bitcoinj away from com.google.bitcoin, as bitcoinj is no longer a Google project and being namespaced under com.google causes issues with Sonatype/Maven Central.",
+      "html_url": "https://github.com/bitcoinj/bitcoinj/commit/0a6f901b23524af1ee178174a35d06de3d0e29fd",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "HISTORICAL_INTEREST",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "bitcoinj/bitcoinj.github.io",
+      "matched_path": "release-notes.md",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:16Z",
+      "repo_created_at": "2014-04-30T16:13:49Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2026-05-04T19:56:16Z",
+      "archived": false,
+      "first_commit_sha": "8aac391a85d66563f41cb38c58b81171df425892",
+      "first_commit_date": "2014-04-30T16:16:57Z",
+      "commit_author": "Mike Hearn",
+      "commit_author_email": "mike@plan99.net",
+      "commit_message": "Add initial website from Saivann.",
+      "html_url": "https://github.com/bitcoinj/bitcoinj.github.io/commit/8aac391a85d66563f41cb38c58b81171df425892",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "HISTORICAL_INTEREST",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "bitcoinsearch/summarizer",
+      "matched_path": "static/delvingbitcoin/May_2026/7511_QCAP-A-Bitcoin-Native-Quantum-Canary-Alert.xml",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:19Z",
+      "repo_created_at": "2023-04-27T00:49:33Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-07-20T06:32:47Z",
+      "archived": false,
+      "first_commit_sha": "b56bf802d608a0153821a478f093b889449cfe70",
+      "first_commit_date": "2026-05-25T06:35:20Z",
+      "commit_author": "urvishp80",
+      "commit_author_email": "urvishp80@gmail.com",
+      "commit_message": "Updated newly generated XML files with threading structure",
+      "html_url": "https://github.com/bitcoinsearch/summarizer/commit/b56bf802d608a0153821a478f093b889449cfe70",
+      "exact_matching_lines": [
+        "L16: <summary>The discussion regarding the use of N-bit private keys in Bitcoin transactions raises several crucial points concerning the security and efficiency of cryptographic practices. Existing methods, as exemplified by"
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "brichard19/BitCrack",
+      "matched_path": "README.md",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:21Z",
+      "repo_created_at": "2018-02-08T01:11:56Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2024-03-17T13:25:59Z",
+      "archived": false,
+      "first_commit_sha": "676eb8735782e793b496eabe8fc8aee7dcde0992",
+      "first_commit_date": "2018-02-08T01:08:01Z",
+      "commit_author": "brichard19",
+      "commit_author_email": "brichard19@users.noreply.github.com",
+      "commit_message": "Initial commit",
+      "html_url": "https://github.com/brichard19/BitCrack/commit/676eb8735782e793b496eabe8fc8aee7dcde0992",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "LIST_OR_TRACKER",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "dashpay/dashj",
+      "matched_path": "core/src/main/java/org/bitcoinj/crypto/AnyDeterministicHierarchy.java",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:23Z",
+      "repo_created_at": "2014-05-04T05:12:18Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2026-07-15T22:25:00Z",
+      "archived": false,
+      "first_commit_sha": "4c2a41a87414b98fcb180a3c328874e169c7ebc1",
+      "first_commit_date": "2023-03-07T06:26:09Z",
+      "commit_author": "Hash Engineering Solutions",
+      "commit_author_email": "hashengineeringsolutions@gmail.com",
+      "commit_message": "feat: add support for bls extended keys (#198)",
+      "html_url": "https://github.com/dashpay/dashj/commit/4c2a41a87414b98fcb180a3c328874e169c7ebc1",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "SECONDARY_RESEARCH",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "elastos/Elastos",
+      "matched_path": "DID.Java.SDK/src/main/java/org/bitcoinj/crypto/DeterministicKey.java",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:26Z",
+      "repo_created_at": "2018-03-19T02:34:37Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2022-12-27T10:55:04Z",
+      "archived": false,
+      "first_commit_sha": "5b54444737548eee0aaa085ac4b9953a51cf624a",
+      "first_commit_date": "2020-02-18T14:39:10Z",
+      "commit_author": "Jingyu",
+      "commit_author_email": "jingyu.niu@gmail.com",
+      "commit_message": "Add modified(secp256k1->secp256r1) bitcoinj's core and crypto source code",
+      "html_url": "https://github.com/elastos/Elastos/commit/5b54444737548eee0aaa085ac4b9953a51cf624a",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "SECONDARY_RESEARCH",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "iceland2k14/snail",
+      "matched_path": "unsolved.txt",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:29Z",
+      "repo_created_at": "2023-05-02T14:25:42Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2024-06-27T10:09:11Z",
+      "archived": false,
+      "first_commit_sha": "7ace6a830394d7fcab968ad34e88a5d6b4627d99",
+      "first_commit_date": "2023-05-02T14:43:25Z",
+      "commit_author": "iceland",
+      "commit_author_email": "75991805+iceland2k14@users.noreply.github.com",
+      "commit_message": "Main file upload",
+      "html_url": "https://github.com/iceland2k14/snail/commit/7ace6a830394d7fcab968ad34e88a5d6b4627d99",
+      "exact_matching_lines": [
+        "L5: 71   1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU"
+      ],
+      "source_cited_by_file": [],
+      "class": "LIST_OR_TRACKER",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "ilkerccom/bitcoinpuzzlescanner",
+      "matched_path": "README_tr.md",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:31Z",
+      "repo_created_at": "2022-01-18T17:34:51Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2024-04-07T19:58:13Z",
+      "archived": false,
+      "first_commit_sha": "baefca7f3593e54d7902bae5ad42fc0f121051d1",
+      "first_commit_date": "2022-01-18T18:26:03Z",
+      "commit_author": "Ilker Cindik",
+      "commit_author_email": "35669865+ilkerccom@users.noreply.github.com",
+      "commit_message": "Publish",
+      "html_url": "https://github.com/ilkerccom/bitcoinpuzzlescanner/commit/baefca7f3593e54d7902bae5ad42fc0f121051d1",
+      "exact_matching_lines": [
+        "L56: [Blockchain (16jY7qLJnxb7CHZyqBP8qca9d51gAjyXQN)](https://www.blockchain.com/btc/tx/08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15)"
+      ],
+      "source_cited_by_file": [],
+      "class": "LIST_OR_TRACKER",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "jalfr3d/btc-transaction-signer",
+      "matched_path": "main.py",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:33Z",
+      "repo_created_at": "2025-03-17T19:30:22Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2026-03-05T23:08:00Z",
+      "archived": false,
+      "first_commit_sha": "2faf38597c45f9051111e99b04c3ca44bdeb565a",
+      "first_commit_date": "2025-03-12T23:08:27Z",
+      "commit_author": "Jorge",
+      "commit_author_email": "alfred.jorge@gmail.com",
+      "commit_message": "Initial commit",
+      "html_url": "https://github.com/jalfr3d/btc-transaction-signer/commit/2faf38597c45f9051111e99b04c3ca44bdeb565a",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "lmajowka/btc-finder",
+      "matched_path": "src/data/wallets.js",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:35Z",
+      "repo_created_at": "2024-03-29T10:28:43Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-04-10T15:03:29Z",
+      "archived": false,
+      "first_commit_sha": "bafc16964c613c97c2d221250789f92872bbf6c9",
+      "first_commit_date": "2024-06-17T04:20:36Z",
+      "commit_author": "jack970",
+      "commit_author_email": "italocod@hotmail.com",
+      "commit_message": "[Refactor]: organize project structure",
+      "html_url": "https://github.com/lmajowka/btc-finder/commit/bafc16964c613c97c2d221250789f92872bbf6c9",
+      "exact_matching_lines": [
+        "L72: \"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\","
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "mlartab/bitcoin-puzzle-systematic-analysis",
+      "matched_path": "README.md",
+      "queries": [
+        "\"consecutive keys from a deterministic wallet\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:37Z",
+      "repo_created_at": "2026-05-06T13:59:45Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-05-06T19:19:52Z",
+      "archived": false,
+      "first_commit_sha": "cdd7412114d6da559c027416a23ce822085192e6",
+      "first_commit_date": "2026-05-06T13:58:48Z",
+      "commit_author": "mlartab",
+      "commit_author_email": "58775318+mlartab@users.noreply.github.com",
+      "commit_message": "Initial commit of Bitcoin Puzzle systematic analysis toolkit",
+      "html_url": "https://github.com/mlartab/bitcoin-puzzle-systematic-analysis/commit/cdd7412114d6da559c027416a23ce822085192e6",
+      "exact_matching_lines": [
+        "L6: The Bitcoin Puzzle contains 160 addresses with increasing prize amounts. Puzzles #1\u2011#70 have been solved, leaving #71 (7.1 BTC) and higher. The puzzle creator stated the keys are \u201cconsecutive keys from a deterministic wa"
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "oritwoen/boha",
+      "matched_path": "data/b1000.jsonc",
+      "queries": [
+        "\"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:42Z",
+      "repo_created_at": "2025-12-30T18:29:02Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-07-11T09:12:01Z",
+      "archived": false,
+      "first_commit_sha": "7b7cbe9d6b746736a26370aab800baf37a23e10d",
+      "first_commit_date": "2026-01-23T20:31:59Z",
+      "commit_author": "Ori",
+      "commit_author_email": "18102267+oritwoen@users.noreply.github.com",
+      "commit_message": "feat(data): migrate from TOML to JSONC (#101)",
+      "html_url": "https://github.com/oritwoen/boha/commit/7b7cbe9d6b746736a26370aab800baf37a23e10d",
+      "exact_matching_lines": [
+        "L96: \"txid\": \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\",",
+        "L133: \"txid\": \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\",",
+        "L170: \"txid\": \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\",",
+        "L207: \"txid\": \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\",",
+        "L244: \"txid\": \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\",",
+        "L281: \"txid\": \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\",",
+        "L318: \"txid\": \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\",",
+        "L355: \"txid\": \"08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15\","
+      ],
+      "source_cited_by_file": [
+        "https://bitcointalk.org/index.php?action=profile;u=991321",
+        "https://bitcointalk.org/index.php?topic=5218972",
+        "saatoshi_rising"
+      ],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "riaanjvos/bitcoinj-light",
+      "matched_path": "core/src/main/java/org/bitcoinj/crypto/DeterministicKey.java",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:46Z",
+      "repo_created_at": "2018-01-04T10:19:16Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2018-01-25T15:43:50Z",
+      "archived": false,
+      "first_commit_sha": "0a6f901b23524af1ee178174a35d06de3d0e29fd",
+      "first_commit_date": "2014-09-30T15:05:06Z",
+      "commit_author": "Mike Hearn",
+      "commit_author_email": "mike@plan99.net",
+      "commit_message": "Renamespace to org.bitcoinj away from com.google.bitcoin, as bitcoinj is no longer a Google project and being namespaced under com.google causes issues with Sonatype/Maven Central.",
+      "html_url": "https://github.com/riaanjvos/bitcoinj-light/commit/0a6f901b23524af1ee178174a35d06de3d0e29fd",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "HISTORICAL_INTEREST",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "roadhero/Bitcoin-Puzzle-Info",
+      "matched_path": "README.md",
+      "queries": [
+        "\"consecutive keys from a deterministic wallet\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:51Z",
+      "repo_created_at": "2025-08-30T00:58:18Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2026-05-05T03:54:37Z",
+      "archived": false,
+      "first_commit_sha": "136351ebdd3d6753a787c3ac9785c5944e78cfd1",
+      "first_commit_date": "2026-05-05T03:54:37Z",
+      "commit_author": "Dennis Vorobyov",
+      "commit_author_email": "roadhero@users.noreply.github.com",
+      "commit_message": "Add README for Bitcoin Puzzle Transaction project",
+      "html_url": "https://github.com/roadhero/Bitcoin-Puzzle-Info/commit/136351ebdd3d6753a787c3ac9785c5944e78cfd1",
+      "exact_matching_lines": [
+        "L13: > *\"There is no pattern. It is just consecutive keys from a deterministic wallet (masked with leading 000...0001 to set difficulty). It is simply a crude measuring instrument, of the cracking strength of the community.\"*"
+      ],
+      "source_cited_by_file": [
+        "https://bitcointalk.org/index.php?topic=1306983.0",
+        "https://bitcointalk.org/index.php?topic=5218972.0",
+        "privatekeys.pw/puzzles/bitcoin-puzzle-tx](https://privatekeys.pw/puzzles/bitcoin-puzzle-tx",
+        "btcpuzzle.info](https://btcpuzzle.info/"
+      ],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "soucosmo/rust-bitcoin-finder",
+      "matched_path": "wallets.py",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:53Z",
+      "repo_created_at": "2024-06-09T22:21:05Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2024-07-15T05:50:58Z",
+      "archived": false,
+      "first_commit_sha": "9b78bf7baf315a19a03001c37abd3b7bd9aa8917",
+      "first_commit_date": "2024-06-30T21:14:43Z",
+      "commit_author": "Cosmo Andr\u00e9",
+      "commit_author_email": "soucosmomoraes@gmail.com",
+      "commit_message": "adicionado script python para a constru\u00e7\u00e3o do wallets.rs",
+      "html_url": "https://github.com/soucosmo/rust-bitcoin-finder/commit/9b78bf7baf315a19a03001c37abd3b7bd9aa8917",
+      "exact_matching_lines": [
+        "L74: \"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\","
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "vericoin/verimobile",
+      "matched_path": "bitcoinj-master/core/src/main/java/org/bitcoinj/crypto/DeterministicHierarchy.java",
+      "queries": [
+        "Matija Mazi bitcoinj BIP32"
+      ],
+      "error": "",
+      "at": "2026-07-20T07:56:58Z",
+      "repo_created_at": "2018-07-26T13:49:17Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "master",
+      "pushed_at": "2019-03-26T01:43:53Z",
+      "archived": false,
+      "first_commit_sha": "917241a583f3c84927989fe3fa680f6c2765aba8",
+      "first_commit_date": "2018-07-25T00:34:31Z",
+      "commit_author": "Maxwell",
+      "commit_author_email": "maxwell10206@sbcglobal.net",
+      "commit_message": "Initial commit",
+      "html_url": "https://github.com/vericoin/verimobile/commit/917241a583f3c84927989fe3fa680f6c2765aba8",
+      "exact_matching_lines": [],
+      "source_cited_by_file": [],
+      "class": "SECONDARY_RESEARCH",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    },
+    {
+      "repository": "vladkens/ecloop",
+      "matched_path": "data/btc-puzzles-addr",
+      "queries": [
+        "\"1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU\""
+      ],
+      "error": "",
+      "at": "2026-07-20T07:57:00Z",
+      "repo_created_at": "2024-04-28T02:11:00Z",
+      "repo_is_fork": false,
+      "parent_repository": null,
+      "default_branch": "main",
+      "pushed_at": "2025-06-03T00:47:02Z",
+      "archived": false,
+      "first_commit_sha": "9aabdb031cbd50eccdaa16dc15dd71d19c60e5cd",
+      "first_commit_date": "2024-04-28T02:18:06Z",
+      "commit_author": "Vlad Pronsky",
+      "commit_author_email": "v.pronsky@gmail.com",
+      "commit_message": "initial",
+      "html_url": "https://github.com/vladkens/ecloop/commit/9aabdb031cbd50eccdaa16dc15dd71d19c60e5cd",
+      "exact_matching_lines": [
+        "L71: 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU"
+      ],
+      "source_cited_by_file": [],
+      "class": "MODERN_MIRROR_OR_TOOL",
+      "reopens_compute": false,
+      "reopen_reason": ""
+    }
+  ]
+}
